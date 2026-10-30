@@ -1,0 +1,18 @@
+{
+  "scenario": "linear_extrapolation",
+  "started": "2026-10-29 22:28:42 UTC",
+  "finished": "2026-10-29 22:30:26 UTC",
+  "elapsed_seconds": 103.49690413475037,
+  "status": "COMPLETED",
+  "n_persons": 4041,
+  "chains": 4,
+  "iterations": 12000,
+  "burnin": 2000,
+  "thin": 25,
+  "distribution_draws_per_person": 2000,
+  "max_Rhat": 1.0041104342980947,
+  "min_ESS": 674.72332534246289,
+  "package": "1.1.2",
+  "sampling_CI": "NOT_RUN",
+  "v1_verdict": "GO_UNCHANGED"
+}

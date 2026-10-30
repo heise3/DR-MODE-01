@@ -1,0 +1,3 @@
+"scenario","nutrient","n_eligible_persons","n_model_persons","usual_intake_mean_mg","below_EAR_percent","interpretation","sampling_CI","DiD_uncertainty"
+"linear_extrapolation","iron",4285,4041,13.0771737854114,7.7612470395714,"nominal below-EAR only; NO_VALID_RESULT for full-adult inadequacy prevalence","NOT_RUN","NOT_PROPAGATED"
+"linear_extrapolation","calcium",4285,4041,952.450195131153,45.1672437395352,"food/beverage inadequacy estimate conditional on NCI and cutpoint assumptions","NOT_RUN","NOT_PROPAGATED"

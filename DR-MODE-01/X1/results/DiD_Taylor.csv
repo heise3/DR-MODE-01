@@ -1,0 +1,3 @@
+"reference","n_persons","DiD_pp","se","df","ci_low","ci_high","p","inference","interpretation"
+"control_mean",20850,0.338607836285998,0.714835452550022,62,-1.09032787272716,1.76754354529916,0.637387334807265,"Taylor","descriptive_DiD_NOT_IDENTIFIED"
+"linear_extrapolation",20850,-0.436388931925028,1.31109870917008,61,-3.05809283303794,2.18531496918788,0.740394658252023,"Taylor","descriptive_DiD_NOT_IDENTIFIED"

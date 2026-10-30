@@ -1,0 +1,7 @@
+{
+  "cycle": "P",
+  "n_both_reliable_all_ages": 10610,
+  "n_adults": 6640,
+  "n_adults_cov_complete": 6313,
+  "overlap_rule": "P replaces J"
+}

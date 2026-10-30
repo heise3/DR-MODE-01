@@ -1,0 +1,45 @@
+{
+  "full_sample_max_S1_prevalence_difference_pp": 9.2299501375237014e-11,
+  "replicates_recorded": 200,
+  "scenario_attempts": 600,
+  "scenario_status": [
+    {
+      "Var1": "control_mean",
+      "Var2": "COMPLETE",
+      "Freq": 200
+    },
+    {
+      "Var1": "linear_extrapolation",
+      "Var2": "COMPLETE",
+      "Freq": 170
+    },
+    {
+      "Var1": "original",
+      "Var2": "COMPLETE",
+      "Freq": 200
+    },
+    {
+      "Var1": "control_mean",
+      "Var2": "NO_VALID_RESULT",
+      "Freq": 0
+    },
+    {
+      "Var1": "linear_extrapolation",
+      "Var2": "NO_VALID_RESULT",
+      "Freq": 30
+    },
+    {
+      "Var1": "original",
+      "Var2": "NO_VALID_RESULT",
+      "Freq": 0
+    }
+  ],
+  "max_Rhat_completed": 1.0494217567662001,
+  "min_ESS_completed": 148.56460281997201,
+  "full_length_repairs": 3,
+  "CI_complete_rows": 13,
+  "CI_invalid_rows": 2,
+  "calcium_main_text_reference": "control_mean",
+  "v1_verdict": "GO_UNCHANGED",
+  "iron_status": "NO_VALID_RESULT_CARRIED_UNCHANGED"
+}

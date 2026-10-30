@@ -1,0 +1,11 @@
+{
+  "status": "COMPLETE",
+  "calcium_main_text_reference": "control_mean",
+  "linear_extrapolation": "SUPPLEMENT_REFERENCE_DEPENDENT",
+  "S1_shift_verified": [
+    0.0406746638510242,
+    0.0688071626893886
+  ],
+  "no_energy_derived_shift": true,
+  "original_and_S1_snapshotted_files": 229
+}

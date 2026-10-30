@@ -1,0 +1,11 @@
+weekend1
+weekend2
+interval
+language12
+language13
+language22
+proxy11
+proxy21
+age_group40.59
+age_group60.
+RIAGENDR2

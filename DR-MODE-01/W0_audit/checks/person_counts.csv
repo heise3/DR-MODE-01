@@ -1,0 +1,6 @@
+"cycle","n_DR1TOT","n_adults","n_positive_weight","n_complete_covariates","n_missing_interval","n_other_covariate_missing","interval_max","n_DRABF_missing_adults","expected_n_adults","expected_n_complete","PASS"
+"G",9338,4309,4309,4296,13,0,148,0,4309,4296,TRUE
+"H",9813,4479,4479,4443,36,0,128,0,4479,4443,TRUE
+"I",9544,4204,4204,4105,99,0,120,0,4204,4105,TRUE
+"J",8704,4139,4139,3990,149,0,112,0,4139,3990,TRUE
+"L",8860,4285,4285,4041,244,0,106,0,4285,4041,TRUE

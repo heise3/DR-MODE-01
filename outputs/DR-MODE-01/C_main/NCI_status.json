@@ -1,0 +1,48 @@
+{
+  "package": "ncimultivar",
+  "version": "1.1.2",
+  "source": "https://prevention.cancer.gov/sites/default/files/2025-08/ncimultivar_1.1.2.zip",
+  "software_installation": "PASS",
+  "preprocessing": "EXECUTED_INPUT_AUDIT_ONLY",
+  "MCMC": "NOT_RUN",
+  "usual_intake": "NOT_RUN",
+  "EAR_prevalence": "NOT_RUN",
+  "result_validity": "NO_VALID_RESULT",
+  "failure_layer": "DATA_DEFINITION_NOT_EXECUTABLE",
+  "reason": "Correction direction is inconsistent within frozen contract; original mean-level correction does not uniquely define correction of the distribution. No sign replacement, no clipping or population rescue.",
+  "eligibility": ["iron", "calcium"],
+  "preprocessing_parameters": {
+    "iron": {
+      "boxcox_lambda": [
+        {
+          "variable": "nutrient",
+          "tran_lambda": 0.14000000000000001
+        }
+      ],
+      "minimum_amount": [
+        {
+          "variable": "nutrient",
+          "minamount": 0.057494464596621858,
+          "_row": "nutrient"
+        }
+      ],
+      "preprocessor_executed": true
+    },
+    "calcium": {
+      "boxcox_lambda": [
+        {
+          "variable": "nutrient",
+          "tran_lambda": 0.22
+        }
+      ],
+      "minimum_amount": [
+        {
+          "variable": "nutrient",
+          "minamount": 2.8604950675170344,
+          "_row": "nutrient"
+        }
+      ],
+      "preprocessor_executed": true
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "recorded_utc": "2026-10-29T23:25:55.768062+00:00",
+  "L_original_n_PSU": 30,
+  "L_original_n_strata": 15,
+  "L_original_df": 15,
+  "pooled_n_PSU": 151,
+  "pooled_n_strata": 74,
+  "pooled_df_for_DiD_dependent_estimates": 77,
+  "CI_summary_existed_when_corrected": false,
+  "source": "https://wwwn.cdc.gov/nchs/nhanes/tutorials/varianceestimation.aspx",
+  "changes_to_frozen_gates": false
+}

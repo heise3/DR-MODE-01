@@ -1,0 +1,57 @@
+{
+  "contract_version": "1.0",
+  "implementation_timing": "Saved before reading participant records or computing any new estimates",
+  "main_cycles": ["G", "H", "I", "J", "L"],
+  "control_cycles": ["G", "H", "I", "J"],
+  "cycle_midpoints": {"G": 2012, "H": 2014, "I": 2016, "J": 2018, "L": 2022.7},
+  "P_rule": "Sensitivity only; replaces J, never concatenated with J",
+  "id": ["cycle", "SEQN"],
+  "adult_eligibility": "RIDAGEYR >= 20 & DR1DRSTZ == 1 & DR2DRSTZ == 1 & DRABF != 1",
+  "youth_eligibility": "RIDAGEYR >= 2 & RIDAGEYR <= 19 & both reliable & DRABF != 1",
+  "no_imputation": true,
+  "primary": {"Y1": "DRxTNUMF", "Y2": "log1p(DRxTKCAL)"},
+  "secondary": {
+    "total_sugars": "log1p(DRxTSUGR)", "alcohol": "log1p(DRxTALCO)",
+    "caffeine": "log1p(DRxTCAFF)", "moisture": "log1p(DRxTMOIS)",
+    "iron": "log1p(DRxTIRON)", "calcium": "log1p(DRxTCALC)",
+    "sodium": "log1p(DRxTSODI)", "protein_energy_pct": "100 * 4 * DRxTPROT / DRxTKCAL",
+    "fat_energy_pct": "100 * 9 * DRxTTFAT / DRxTKCAL", "fiber": "log1p(DRxTFIBE)"
+  },
+  "covariates": {
+    "weekend1": "DR1DAY in {1,7}: Sunday or Saturday",
+    "weekend2": "DR2DAY in {1,7}: Sunday or Saturday",
+    "interval": "abs(DR1DBIH - DR2DBIH), continuous days",
+    "language1": "factor(DR1LANG), 1 English, 2 Spanish, 3 bilingual, 4 other",
+    "language2": "factor(DR2LANG), same mapping",
+    "proxy1": "DR1MRESP != 1 for valid codes; 77,99 and missing treated as missing",
+    "proxy2": "DR2MRESP != 1 for valid codes; 77,99 and missing treated as missing",
+    "age_group": "20-39, 40-59, >=60; youth 2-5,6-11,12-19",
+    "sex": "factor(RIAGENDR)"
+  },
+  "weights": {
+    "A2": "WTDRD1; age>=20, day1 reliable, not breastfed, DR1TKCAL>0, per whitepaper nonfasting definition",
+    "B": "WTDR2D/4; survey design on positive two-day weights, then adult reliable domain",
+    "C": "WTDR2D/5; survey design on positive two-day weights, then adult reliable complete-covariate domain",
+    "variance": "Taylor linearization; strata=interaction(cycle,SDMVSTRA); PSU=interaction(cycle,SDMVSTRA,SDMVPSU); nest=TRUE",
+    "single_PSU": "Fail with error rather than silently change variance method"
+  },
+  "B": {
+    "heterogeneity_model": "svyglm(D ~ factor(cycle)), unadjusted cycle heterogeneity as specified in Stage B",
+    "heterogeneity_test": "survey::regTermTest cycle, design-adjusted Wald F, model residual df",
+    "trend_model": "svyglm(D ~ centered_cycle_midpoint)",
+    "extrapolation": "Expected mean D at midpoint 2022.7; 95% t CI using model residual df; not an individual prediction interval",
+    "reference_mean": "Pooled WTDR2D/4 weighted control D mean",
+    "pass": "At least one same primary endpoint has p>0.05 AND CI width < 2*abs(control D mean)"
+  },
+  "C": {
+    "mean_reference": "svyglm(D ~ is_L + fixed_covariates)",
+    "trend_reference": "svyglm(D ~ is_L + centered_cycle_midpoint + fixed_covariates)",
+    "p_values": "Two-sided survey t with residual df",
+    "control_cycle_SD": "Sample SD (denominator 3) of four unadjusted survey-weighted control cycle D means",
+    "C1_pass": "Same primary endpoint: both p<0.01, same nonzero sign, and both absolute DiDs exceed 2*control_cycle_SD",
+    "C2_FDR": "BH over 10 endpoints separately for each reference; conservative influence eligibility requires both q<0.05 and same sign",
+    "C3_note": "Contract C3(a) says add -DiD. This is frozen literally; under its definition -DiD=telephone-minus-in-person, removing that effect to recover an in-person counterfactual would algebraically add +DiD. Preserve this discrepancy and do not silently relabel the literal result as an in-person counterfactual."
+  },
+  "missingness": "No imputation or substitution; report eligible and outcome/model-complete person counts separately",
+  "stop_rule": "Do not run B before A0-A3 pass; do not run C before B passes; preserve all results; no v1.1 rescue"
+}

@@ -1,0 +1,21 @@
+{
+  "task": "DR-MODE-01 S1 writing supplement",
+  "version": "S1; not v1.1",
+  "contract_sha256": "902328b9d98817f6982f0ee169bb1809f20e55e9a0178c7c15d1cfb495d76d27",
+  "inherited_v1_verdict": "GO",
+  "gates_reassessed": false,
+  "contract_comparison": "FORMAT_ONLY_CONTINUE",
+  "S1a": "COMPLETE",
+  "S1b": {
+    "computation": "COMPLETE_NCIMULTIVAR_1.1.2",
+    "calcium": "CONDITIONAL_MODEL_ESTIMATE",
+    "iron_below_EAR": "EXECUTED_NOMINAL_ONLY",
+    "iron_full_adult_inadequacy": "NO_VALID_RESULT_METHOD_ASSUMPTION_VIOLATION",
+    "sampling_CI": "NOT_RUN",
+    "DiD_uncertainty": "NOT_PROPAGATED"
+  },
+  "S1c": "COMPLETE_IDENTITY_VERIFIED",
+  "S1d": "COMPLETE_ORIGINAL_RESULTS_CARRIED",
+  "full_joint_raking": "NOT_RUN_STRUCTURAL_ZEROS_CARRIED_NO_RETRY",
+  "original_unchanged": true
+}

@@ -1,0 +1,27 @@
+{
+  "audit": {
+    "a": "PASS",
+    "b": "PASS",
+    "c": "PASS",
+    "d": "PASS",
+    "e": "PASS",
+    "f": "PASS",
+    "g": "PASS"
+  },
+  "bootstrap_rao_wu": true,
+  "S2c_run": false,
+  "reconcile": "RECONCILED",
+  "writing_gate": "OPEN",
+  "v1_GO": "UNCHANGED",
+  "weekend_scope": "USER_CONFIRMED_FROZEN_SAT_SUN_5_7_2_7",
+  "reconciliation_as_written_Martin": "MALE_MISMATCH_EXPLAINED_BY_TWO_FASTING_PERSONS",
+  "reconciliation_paper_nonfasting": "PASS",
+  "corrected_primary_numbers": 0,
+  "correction_records": [],
+  "calcium_day1_mean_CI": "NOT_RUN_IN_S2",
+  "calcium_extrapolation_prevalence_CI": "NO_VALID_RESULT_CARRIED",
+  "iron": "NO_VALID_RESULT_CARRIED",
+  "claims_rows": 76,
+  "figdata_files": 6,
+  "protected_files_verified": 4739
+}

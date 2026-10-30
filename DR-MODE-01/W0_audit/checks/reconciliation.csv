@@ -1,0 +1,6 @@
+item,status,detail
+W0.2a_direction,PASS,G-J：D<0；L：D>0；Y1及原尺度能量均成立
+W0.2b_figure9,PASS,白皮书非禁食定义：15/15显示精度吻合；冻结主样本另列；I女性小负值显示0.0
+W0.2c_as_written,FAIL,男性2601 vs2599；均值误差-1.6224/-1.8012 kcal；女性匹配；2名男性任一天0 kcal
+W0.2c_paper_exact,PASS,按论文明确非禁食条件：N2599/2624；均值4/4、SE4/4整数吻合；主分析人群未改
+W0.2d,RECONCILED,方向反转确认；E|D|与|E[D]|及signed E[D]分开；官方图9是signed Day1-Day2；两名禁食男性解释论文对账差异

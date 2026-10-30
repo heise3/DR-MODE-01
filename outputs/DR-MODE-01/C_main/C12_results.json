@@ -1,0 +1,28 @@
+{
+  "C1_pass": true,
+  "C3_eligible_outcomes": ["Y1", "Y2", "total_sugars", "alcohol", "caffeine", "moisture", "iron", "calcium", "sodium", "protein_energy_pct", "fiber"],
+  "primary_gates": [
+    {
+      "outcome": "Y1",
+      "both_p_lt_001": true,
+      "same_sign": true,
+      "control_cycle_SD": 0.28279182471920239,
+      "size_threshold": 0.56558364943840478,
+      "main_abs_DiD": 0.68097425530300149,
+      "main_size_pass": true,
+      "alternate_abs_DiD": 1.0627564212839073,
+      "C1_pass": true
+    },
+    {
+      "outcome": "Y2",
+      "both_p_lt_001": true,
+      "same_sign": true,
+      "control_cycle_SD": 0.007669418956703403,
+      "size_threshold": 0.015338837913406806,
+      "main_abs_DiD": 0.095476393171093563,
+      "main_size_pass": true,
+      "alternate_abs_DiD": 0.098024815678142946,
+      "C1_pass": true
+    }
+  ]
+}

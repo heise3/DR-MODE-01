@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "ledger_rows": 76,
+  "unique_claim_ids": true,
+  "source_paths_exist": true,
+  "no_Taylor_p_bootstrap_CI_mixing": true,
+  "fig1_cycle_mean_max_difference": 9.992007221626409e-16,
+  "fig2_rows": 25,
+  "fig2_CI_NOT_RUN_rows": 10,
+  "fig2_CI_NO_VALID_RESULT_rows": 2,
+  "flow_telescopes": true,
+  "panel_tier_counts": {
+    "neither_reference_FDR_lt_0.05": 1,
+    "reference_dependent": 6,
+    "both_references_FDR_lt_0.05": 3
+  },
+  "failed_replicates": 30,
+  "writing_gate": "OPEN"
+}

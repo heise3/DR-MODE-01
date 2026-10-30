@@ -1,0 +1,68 @@
+[
+  {
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DR1TOT.htm",
+    "path": "A_access/codebooks/P_DR1TOT.htm",
+    "retrieved_utc": "2026-10-29T14:15:15.718727+00:00",
+    "status": "OK",
+    "curl_returncode": 0,
+    "http": "200\thttps://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DR1TOT.htm\ttext/html",
+    "stderr": "",
+    "bytes": 453488,
+    "sha256": "78c14dba6a8c4687f1298d9486c143c43d99dc41827abc1fd0588b236bd5ff27"
+  },
+  {
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DR1TOT.xpt",
+    "path": "A_access/data/P_DR1TOT.xpt",
+    "retrieved_utc": "2026-10-29T14:15:15.722250+00:00",
+    "status": "OK",
+    "curl_returncode": 0,
+    "http": "200\thttps://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DR1TOT.xpt\ttext/plain",
+    "stderr": "",
+    "bytes": 19243440,
+    "sha256": "02cf0fcb15cdef9442594747a6699c43a65fd280f0f807e82ca0b888b0d97b5e"
+  },
+  {
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DR2TOT.htm",
+    "path": "A_access/codebooks/P_DR2TOT.htm",
+    "retrieved_utc": "2026-10-29T14:15:15.718944+00:00",
+    "status": "OK",
+    "curl_returncode": 0,
+    "http": "200\thttps://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DR2TOT.htm\ttext/html",
+    "stderr": "",
+    "bytes": 277547,
+    "sha256": "414940121a0392026f8cf8447e286d6e99f65234db45e81dded9001e47f5db48"
+  },
+  {
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DR2TOT.xpt",
+    "path": "A_access/data/P_DR2TOT.xpt",
+    "retrieved_utc": "2026-10-29T14:15:15.718919+00:00",
+    "status": "OK",
+    "curl_returncode": 0,
+    "http": "200\thttps://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DR2TOT.xpt\ttext/plain",
+    "stderr": "",
+    "bytes": 9736640,
+    "sha256": "2013d36582131ffc810bb025e11c8a0c6533b5e59197ad2aa76f4d52db81bb5a"
+  },
+  {
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DEMO.htm",
+    "path": "A_access/codebooks/P_DEMO.htm",
+    "retrieved_utc": "2026-10-29T14:15:18.271203+00:00",
+    "status": "OK",
+    "curl_returncode": 0,
+    "http": "200\thttps://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DEMO.htm\ttext/html",
+    "stderr": "",
+    "bytes": 89096,
+    "sha256": "6ac8f9b394615b8b53e1de3bc089c51bd8f1004c01efb746e303476c1f918b86"
+  },
+  {
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DEMO.xpt",
+    "path": "A_access/data/P_DEMO.xpt",
+    "retrieved_utc": "2026-10-29T14:15:20.187176+00:00",
+    "status": "OK",
+    "curl_returncode": 0,
+    "http": "200\thttps://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DEMO.xpt\ttext/plain",
+    "stderr": "",
+    "bytes": 3614720,
+    "sha256": "2e46c6c26bf77cd8989f64011ace12cbf42c0f3e03414eb59acc5328c8f87913"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "cycle": "G",
+    "day": 1,
+    "file": "DR1TOT_G",
+    "DBIH_definition": "Number of days between intake day and the day of family questionnaire administered in the household.",
+    "TNUMF_definition": "Total number of foods reported in the individual foods file",
+    "mode_present": true,
+    "water_included": true,
+    "supplement_separation_documented": true,
+    "pass": true
+  },
+  {
+    "cycle": "G",
+    "day": 2,
+    "file": "DR2TOT_G",
+    "DBIH_definition": "Number of days between intake day and the day of family questionnaire administered in the household.",
+    "TNUMF_definition": "Total number of foods reported in the individual foods file",
+    "mode_present": true,
+    "water_included": true,
+    "supplement_separation_documented": true,
+    "pass": true
+  },
+  {
+    "cycle": "H",
+    "day": 1,
+    "file": "DR1TOT_H",
+    "DBIH_definition": "Number of days between intake day and the day of family questionnaire administered in the household.",
+    "TNUMF_definition": "Total number of foods/beverages reported in the individual foods file",
+    "mode_present": true,
+    "water_included": true,
+    "supplement_separation_documented": true,
+    "pass": true
+  },
+  {
+    "cycle": "H",
+    "day": 2,
+    "file": "DR2TOT_H",
+    "DBIH_definition": "Number of days between intake day and the day of family questionnaire administered in the household.",
+    "TNUMF_definition": "Total number of foods/beverages reported in the individual foods file",
+    "mode_present": true,
+    "water_included": true,
+    "supplement_separation_documented": true,
+    "pass": true
+  },
+  {
+    "cycle": "I",
+    "day": 1,
+    "file": "DR1TOT_I",
+    "DBIH_definition": "Number of days between intake day and the day of family questionnaire administered in the household.",
+    "TNUMF_definition": "Total number of foods/beverages reported in the individual foods file",
+    "mode_present": true,
+    "water_included": true,
+    "supplement_separation_documented": true,
+    "pass": true
+  },
+  {
+    "cycle": "I",
+    "day": 2,
+    "file": "DR2TOT_I",
+    "DBIH_definition": "Number of days between intake day and the day of family questionnaire administered in the household.",
+    "TNUMF_definition": "Total number of foods/beverages reported in the individual foods file",
+    "mode_present": true,
+    "water_included": true,
+    "supplement_separation_documented": true,
+    "pass": true
+  },
+  {
+    "cycle": "J",
+    "day": 1,
+    "file": "DR1TOT_J",
+    "DBIH_definition": "Number of days between intake day and the day of family questionnaire administered in the household.",
+    "TNUMF_definition": "Total number of foods/beverages reported in the individual foods file",
+    "mode_present": true,
+    "water_included": true,
+    "supplement_separation_documented": true,
+    "pass": true
+  },
+  {
+    "cycle": "J",
+    "day": 2,
+    "file": "DR2TOT_J",
+    "DBIH_definition": "Number of days between intake day and the day of family questionnaire administered in the household.",
+    "TNUMF_definition": "Total number of foods/beverages reported in the individual foods file",
+    "mode_present": true,
+    "water_included": true,
+    "supplement_separation_documented": true,
+    "pass": true
+  },
+  {
+    "cycle": "L",
+    "day": 1,
+    "file": "DR1TOT_L",
+    "DBIH_definition": "Number of days between intake day and the day of family questionnaire administered in the household.",
+    "TNUMF_definition": "Total number of foods/beverages reported in the individual foods file",
+    "mode_present": true,
+    "water_included": true,
+    "supplement_separation_documented": true,
+    "pass": true
+  },
+  {
+    "cycle": "L",
+    "day": 2,
+    "file": "DR2TOT_L",
+    "DBIH_definition": "Number of days between intake day and the day of family questionnaire administered in the household.",
+    "TNUMF_definition": "Total number of foods/beverages reported in the individual foods file",
+    "mode_present": true,
+    "water_included": true,
+    "supplement_separation_documented": true,
+    "pass": true
+  }
+]

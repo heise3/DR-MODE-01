@@ -1,0 +1,19 @@
+{
+  "publication_verification": "PASS",
+  "privacy_scan": "PASS",
+  "raw_records_or_caches_in_release": 0,
+  "original_R_scripts_parsed": 20,
+  "CDC_download_smoke_test": {
+    "file": "DEMO_L.xpt",
+    "bytes": 2582160,
+    "original_sha256_match": true
+  },
+  "all_200_bootstrap_replicate_ids_present": true,
+  "PSU_matrix_dimensions": [
+    151,
+    200
+  ],
+  "full_MCMC_refit_for_publication": "NOT_RUN_NOT_REQUIRED",
+  "changes_to_frozen_analyses": false,
+  "official_ncimultivar_source_download_sha256_match": true
+}

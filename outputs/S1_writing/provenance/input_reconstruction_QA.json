@@ -1,0 +1,11 @@
+{
+  "source": "sealed public XPT files; mappings copied from sealed code",
+  "n_by_cycle": {
+    "G": 4309,
+    "H": 4479,
+    "I": 4204,
+    "J": 4139,
+    "L": 4285
+  },
+  "data_identical_to_v1_cache": true
+}

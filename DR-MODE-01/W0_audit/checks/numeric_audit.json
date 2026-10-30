@@ -1,0 +1,23 @@
+{
+  "a_weight_divisor_B": 4,
+  "a_weight_divisor_C": 5,
+  "a_all_w_match": true,
+  "a_strata_cycle_unique": true,
+  "a_psu_cycle_unique": true,
+  "b_counts_pass": true,
+  "c_difference_direction_pass": true,
+  "d_fresh_fields_pass": true,
+  "e_weekday_probability": 0.7142857142857143,
+  "e_weekend_probability": 0.2857142857142857,
+  "e_weekend_joint_weights": [0.51020408163265307, 0.20408163265306123, 0.20408163265306123, 0.081632653061224483],
+  "f_same_seed_matrix_identical": true,
+  "f_rao_wu_pass": true,
+  "f_replicates": 200,
+  "f_scale": 0.0050251256281407036,
+  "g_failure_CI_handling_pass": true,
+  "n_strata": 74,
+  "n_PSU": 151,
+  "n_two_PSU_strata": 71,
+  "n_three_PSU_strata": 3,
+  "v1_verdict": "GO"
+}

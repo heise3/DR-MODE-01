@@ -1,0 +1,29 @@
+suppressPackageStartupMessages({library(survey);library(jsonlite)})
+root<-'DR-MODE-01/X1';s<-readRDS(file.path(root,'data/analysis_models.rds'));d<-s$data;z<-d[d$adult&d$cov_complete&d$outcome_complete,]
+rows<-list()
+for(ref in names(s$models)) {
+ m<-s$models[[ref]];X<-model.matrix(formula(m),data=z);Y<-z$D;w<-z$w
+ bread<-solve(crossprod(X,w*X));beta<-drop(bread%*%crossprod(X,w*Y));names(beta)<-colnames(X)
+ residual<-Y-drop(X%*%beta);influence<-(X*as.vector(w*residual))%*%bread
+ cluster<-aggregate(influence,list(stratum=z$stratum,psu=z$psu),sum)
+ stopifnot(nrow(cluster)==length(unique(d$psu)))
+ V<-matrix(0,ncol(X),ncol(X))
+ for(h in unique(cluster$stratum)) {
+  u<-as.matrix(cluster[cluster$stratum==h,-c(1,2)]);nh<-nrow(u)
+  cent<-sweep(u,2,colMeans(u),'-');V<-V+nh/(nh-1)*crossprod(cent)
+ }
+ k<-which(colnames(X)=='is_L');se<-sqrt(V[k,k]);rse<-sqrt(vcov(m)['is_L','is_L'])
+ rows[[ref]]<-data.frame(reference=ref,matrix_DiD=beta[k],survey_DiD=coef(m)['is_L'],matrix_se=se,survey_se=rse,abs_coef_difference=abs(beta[k]-coef(m)['is_L']),abs_se_difference=abs(se-rse))
+}
+tab<-do.call(rbind,rows);stopifnot(max(tab$abs_coef_difference)<1e-9,max(tab$abs_se_difference)<1e-9)
+write.csv(tab,file.path(root,'provenance/independent_DiD_QA.csv'),row.names=FALSE)
+pm<-read.csv('outputs/S2_uncertainty/provenance/PSU_multiplier_matrix.csv');M<-as.matrix(pm[,-(1:3)])
+rw<-do.call(rbind,lapply(unique(pm$stratum),function(h){v<-M[pm$stratum==h,,drop=FALSE];nh<-nrow(v);data.frame(stratum=h,n_PSU=nh,sum_multiplier_max_error=max(abs(colSums(v)-nh)),draw_count_max_error=max(abs(v*(nh-1)/nh-round(v*(nh-1)/nh))),max_nonzero_PSU=max(colSums(v>0)),pass=all(abs(colSums(v)-nh)<1e-9)&all(abs(v*(nh-1)/nh-round(v*(nh-1)/nh))<1e-9)&all(colSums(v>0)<=nh-1))}))
+stopifnot(all(rw$pass));write.csv(rw,file.path(root,'provenance/Rao_Wu_matrix_QA.csv'),row.names=FALSE)
+cm<-read.csv(file.path(root,'results/paired_cycle_means.csv'));stopifnot(max(abs(cm$day2_pct-cm$day1_pct-cm$D_pp))<1e-9)
+bp<-read.csv(file.path(root,'results/DiD_200_replicates.csv'));stopifnot(nrow(bp)==400,all(bp$status=='PASS'),all(table(bp$reference)==200))
+oldstatus<-fromJSON('outputs/DR-MODE-01/status.json');flow<-read.csv(file.path(root,'results/person_counts.csv'))
+stopifnot(all(flow$frozen_eligible_persons==unlist(oldstatus$n_adults_by_cycle[flow$cycle])))
+gate<-read.csv(file.path(root,'results/pretrend_gate.csv'));stopifnot(!gate$pretrend_pass,gate$wald_pass,!gate$width_pass)
+write_json(list(status='PASS',independent_DiD_and_Taylor_SE='PASS',S2_Rao_Wu_200_matrix='PASS',cycle_difference_identity='PASS',replicate_success_by_reference=as.list(table(bp$reference)),frozen_person_counts='PASS',gate_logic='PASS',max_coefficient_error=max(tab$abs_coef_difference),max_SE_error=max(tab$abs_se_difference)),file.path(root,'provenance/numerical_QA.json'),auto_unbox=TRUE,pretty=TRUE,digits=16)
+print(tab,row.names=FALSE)

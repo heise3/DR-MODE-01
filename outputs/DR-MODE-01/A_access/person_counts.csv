@@ -1,0 +1,6 @@
+"cycle","n_demo","n_dr1_file","n_dr2_file","n_day1_reliable","n_both_reliable_all_ages","n_both_reliable_adults_before_DRABF","n_adults","n_youth","n_adult_DRABF_missing","n_adult_positive_WTDR2D","n_adult_complete_covariates","A3_pass"
+"G",9756,9338,9338,8389,7486,4309,4309,2791,0,4309,4296,TRUE
+"H",10175,9813,9813,8531,7449,4479,4479,2582,0,4479,4443,TRUE
+"I",9971,9544,9544,8327,6863,4204,4204,2324,0,4204,4105,TRUE
+"J",9254,8704,8704,7484,6491,4139,4139,2038,0,4139,3990,TRUE
+"L",11933,8860,8860,6694,5828,4285,4285,1433,0,4285,4041,TRUE

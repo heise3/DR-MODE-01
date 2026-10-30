@@ -1,0 +1,228 @@
+[
+  {
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DR1IFF_G.xpt",
+    "final_url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DR1IFF_G.xpt",
+    "path": "data/DR1IFF_G.xpt",
+    "bytes": 86034720,
+    "sha256": "bf40537bd378f95377b7c274198ac0e7b3a1fbf70b2ad9d995ccc72943b2c061",
+    "http_status": 200,
+    "downloaded_at_utc": "2026-10-30T02:08:04.835148+00:00",
+    "status": "PASS"
+  },
+  {
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DR1IFF_G.htm",
+    "final_url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DR1IFF_G.htm",
+    "path": "provenance/DR1IFF_G.htm",
+    "bytes": 291993,
+    "sha256": "f883564f7fe9f5e30ecf6c93970f9a40bc140f1277229e3fb79484d5adbdbfff",
+    "http_status": 200,
+    "downloaded_at_utc": "2026-10-30T02:07:56.060266+00:00",
+    "status": "PASS"
+  },
+  {
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DR2IFF_G.xpt",
+    "final_url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DR2IFF_G.xpt",
+    "path": "data/DR2IFF_G.xpt",
+    "bytes": 76241360,
+    "sha256": "676f5d0af9aaa82e0b733ed21b0637864b737ffb4187c3739261199fc032fca8",
+    "http_status": 200,
+    "downloaded_at_utc": "2026-10-30T02:08:02.323005+00:00",
+    "status": "PASS"
+  },
+  {
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DR2IFF_G.htm",
+    "final_url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DR2IFF_G.htm",
+    "path": "provenance/DR2IFF_G.htm",
+    "bytes": 291958,
+    "sha256": "324c762f8658c4b46f8c60bbda5fa3496e8be24d60efd7e4367cd7b3e226cb9f",
+    "http_status": 200,
+    "downloaded_at_utc": "2026-10-30T02:07:56.262799+00:00",
+    "status": "PASS"
+  },
+  {
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DR1IFF_H.xpt",
+    "final_url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DR1IFF_H.xpt",
+    "path": "data/DR1IFF_H.xpt",
+    "bytes": 88309280,
+    "sha256": "2af08841d72b4b4f03fdeddb3e666e1fee2b86d7b0d99d74b3b6f7125b560af7",
+    "http_status": 200,
+    "downloaded_at_utc": "2026-10-30T02:08:18.538694+00:00",
+    "status": "PASS"
+  },
+  {
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DR1IFF_H.htm",
+    "final_url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DR1IFF_H.htm",
+    "path": "provenance/DR1IFF_H.htm",
+    "bytes": 282649,
+    "sha256": "b9eb03a7e1beb4b136f60bd2d6a55dc5eb21da21deac6ce861abcce8a5941590",
+    "http_status": 200,
+    "downloaded_at_utc": "2026-10-30T02:08:01.858544+00:00",
+    "status": "PASS"
+  },
+  {
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DR2IFF_H.xpt",
+    "final_url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DR2IFF_H.xpt",
+    "path": "data/DR2IFF_H.xpt",
+    "bytes": 75664960,
+    "sha256": "7aaccb4622a6aaf334655812517f02faa666870b4cd0000efe330b6c8effd9b6",
+    "http_status": 200,
+    "downloaded_at_utc": "2026-10-30T02:08:17.203364+00:00",
+    "status": "PASS"
+  },
+  {
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DR2IFF_H.htm",
+    "final_url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DR2IFF_H.htm",
+    "path": "provenance/DR2IFF_H.htm",
+    "bytes": 282597,
+    "sha256": "2616786a9fd7ed58803d748122c91cced051b905590b0a3a92a04acfe5ead606",
+    "http_status": 200,
+    "downloaded_at_utc": "2026-10-30T02:08:07.646844+00:00",
+    "status": "PASS"
+  },
+  {
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DR1IFF_I.xpt",
+    "final_url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DR1IFF_I.xpt",
+    "path": "data/DR1IFF_I.xpt",
+    "bytes": 81647760,
+    "sha256": "36b516fa303611f075e80ce1c44360a8c964261adcc67b7aa3f2df8b937532f5",
+    "http_status": 200,
+    "downloaded_at_utc": "2026-10-30T02:08:18.732500+00:00",
+    "status": "PASS"
+  },
+  {
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DR1IFF_I.htm",
+    "final_url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DR1IFF_I.htm",
+    "path": "provenance/DR1IFF_I.htm",
+    "bytes": 281128,
+    "sha256": "1da419de6454f4b7534ad05905eb92bc1c2dc8ddd6bc0f5061745bcb630cc909",
+    "http_status": 200,
+    "downloaded_at_utc": "2026-10-30T02:08:14.179344+00:00",
+    "status": "PASS"
+  },
+  {
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DR2IFF_I.xpt",
+    "final_url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DR2IFF_I.xpt",
+    "path": "data/DR2IFF_I.xpt",
+    "bytes": 67669440,
+    "sha256": "00c11f34fb2ef383d8c974d71c98edfdb9855aafc5aee7fc33ee3cea55b26ef1",
+    "http_status": 200,
+    "downloaded_at_utc": "2026-10-30T02:08:23.982576+00:00",
+    "status": "PASS"
+  },
+  {
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DR2IFF_I.htm",
+    "final_url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DR2IFF_I.htm",
+    "path": "provenance/DR2IFF_I.htm",
+    "bytes": 280854,
+    "sha256": "ddba5b25c8ef29e9a87025c5bb12d8ff235b3644cdca05f0544835b9412986a2",
+    "http_status": 200,
+    "downloaded_at_utc": "2026-10-30T02:08:19.538014+00:00",
+    "status": "PASS"
+  },
+  {
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DR1IFF_J.xpt",
+    "final_url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DR1IFF_J.xpt",
+    "path": "data/DR1IFF_J.xpt",
+    "bytes": 75735520,
+    "sha256": "dc0d7a563f393bd368e23b524fbfd6f98a960f3932bfa8931ca35e6dbb0b6d4f",
+    "http_status": 200,
+    "downloaded_at_utc": "2026-10-30T02:08:33.667211+00:00",
+    "status": "PASS"
+  },
+  {
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DR1IFF_J.htm",
+    "final_url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DR1IFF_J.htm",
+    "path": "provenance/DR1IFF_J.htm",
+    "bytes": 281407,
+    "sha256": "6a0aa067344fa3f9b4264aea008369b9579b9f4e62b98291bf1cdcbeb17fbcce",
+    "http_status": 200,
+    "downloaded_at_utc": "2026-10-30T02:08:24.533742+00:00",
+    "status": "PASS"
+  },
+  {
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DR2IFF_J.xpt",
+    "final_url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DR2IFF_J.xpt",
+    "path": "data/DR2IFF_J.xpt",
+    "bytes": 62844480,
+    "sha256": "805af3e91647dc4e62aff5b3758cfb94802123f443ca6bc0e0cb2ead93e5f895",
+    "http_status": 200,
+    "downloaded_at_utc": "2026-10-30T02:08:34.672703+00:00",
+    "status": "PASS"
+  },
+  {
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DR2IFF_J.htm",
+    "final_url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DR2IFF_J.htm",
+    "path": "provenance/DR2IFF_J.htm",
+    "bytes": 281096,
+    "sha256": "632f064dba97bec4a178d1926bb7084f7fd5600b211d594964f16cdbe2b6d4db",
+    "http_status": 200,
+    "downloaded_at_utc": "2026-10-30T02:08:25.912358+00:00",
+    "status": "PASS"
+  },
+  {
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/DR1IFF_L.xpt",
+    "final_url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/DR1IFF_L.xpt",
+    "path": "data/DR1IFF_L.xpt",
+    "bytes": 67290480,
+    "sha256": "97177395e5fd1322ec8cb72d271a3f8d46e6a83b1105f89f6ef6f39f156037b3",
+    "http_status": 200,
+    "downloaded_at_utc": "2026-10-30T02:08:35.044176+00:00",
+    "status": "PASS"
+  },
+  {
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/DR1IFF_L.htm",
+    "final_url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/DR1IFF_L.htm",
+    "path": "provenance/DR1IFF_L.htm",
+    "bytes": 282373,
+    "sha256": "98e2942937957ce1613bb24b85517584e97c9a01a1fc586ad8a9de4ecaf1697d",
+    "http_status": 200,
+    "downloaded_at_utc": "2026-10-30T02:08:29.229242+00:00",
+    "status": "PASS"
+  },
+  {
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/DR2IFF_L.xpt",
+    "final_url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/DR2IFF_L.xpt",
+    "path": "data/DR2IFF_L.xpt",
+    "bytes": 59170000,
+    "sha256": "7c06a8ed008e3ea063a62cd97fe26bf3b59322e31dda4b5bc9c217a6a5482a04",
+    "http_status": 200,
+    "downloaded_at_utc": "2026-10-30T02:09:04.517075+00:00",
+    "status": "PASS"
+  },
+  {
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/DR2IFF_L.htm",
+    "final_url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/DR2IFF_L.htm",
+    "path": "provenance/DR2IFF_L.htm",
+    "bytes": 282237,
+    "sha256": "2930e137027e1029670069d1c12201dd495d4517e4373e8865b4c6fd7ea6859b",
+    "http_status": 200,
+    "downloaded_at_utc": "2026-10-30T02:08:38.750743+00:00",
+    "status": "PASS"
+  },
+  {
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DR1IFF.xpt",
+    "final_url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DR1IFF.xpt",
+    "path": "data/P_DR1IFF.xpt",
+    "bytes": 123600000,
+    "sha256": "264a4dfd66455f106a8ac25a745ebb4e065564b049b45000a5f9c44296d48dec",
+    "http_status": 200,
+    "downloaded_at_utc": "2026-10-30T02:08:48.887373+00:00",
+    "status": "PASS"
+  },
+  {
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DR1IFF.htm",
+    "final_url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DR1IFF.htm",
+    "path": "provenance/P_DR1IFF.htm",
+    "bytes": 285063,
+    "sha256": "06e80e8884b4a9ab71522544bf052bf0322638bed476e4513a766d1300190243",
+    "http_status": 200,
+    "downloaded_at_utc": "2026-10-30T02:08:38.719301+00:00",
+    "status": "PASS"
+  },
+  {
+    "url": "https://www.cdc.gov/nchs/products/databriefs/db533.htm",
+    "path": "provenance/DB533.htm",
+    "status": "FAIL",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

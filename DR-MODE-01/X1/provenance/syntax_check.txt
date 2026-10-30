@@ -1,0 +1,238 @@
+expression(options(survey.lonely.psu = "fail"), suppressPackageStartupMessages({
+    library(survey)
+    library(haven)
+    library(jsonlite)
+    library(digest)
+}), root <- "DR-MODE-01/X1", old <- "outputs/DR-MODE-01/A_access/data", 
+    fr <- fromJSON(file.path(root, "provenance/freeze.json")), 
+    stopifnot(digest(file = file.path(root, "CONTRACT_X1_v1.0.md"), 
+        algo = "sha256") == fr$contract_sha256), for (p in names(fr$input_hashes)) stopifnot(digest(file = p, 
+        algo = "sha256") == fr$input_hashes[[p]]), outcsv <- function(x, 
+        p) write.csv(x, file.path(root, p), row.names = FALSE, 
+        na = ""), outjson <- function(x, p) write_json(x, file.path(root, 
+        p), pretty = TRUE, auto_unbox = TRUE, digits = 16, na = "null"), 
+    stamp <- function() format(Sys.time(), tz = "UTC", usetz = TRUE), 
+    run <- list(contract_sha256 = fr$contract_sha256, started_utc = stamp(), 
+        stage = "DATA", calibration = "NOT_RUN", pretrend = "NOT_RUN", 
+        verdict = "NOT_RUN"), outjson(run, "results/run_status.json"), 
+    cycs <- c("G", "H", "I", "J", "L"), allcy <- c(cycs, "P"), 
+    iff <- list(), qa <- list(), tod <- list(), for (cy in allcy) {
+        stem <- function(kind) if (cy == "P") 
+            paste0("P_", kind)
+        else paste0(kind, "_", cy)
+        demo <- as.data.frame(read_xpt(file.path(old, paste0(stem("DEMO"), 
+            ".xpt"))))
+        for (day in if (cy == "P") 
+            1
+        else 1:2) {
+            dr <- paste0("DR", day)
+            tag <- paste(cy, day, sep = "_")
+            cols <- c("SEQN", paste0(dr, c("ILINE", "FS", "IKCAL")))
+            q <- as.data.frame(read_xpt(file.path(root, "data", 
+                paste0(stem(paste0(dr, "IFF")), ".xpt")), col_select = all_of(cols)))
+            validline <- !is.na(q[[paste0(dr, "ILINE")]])
+            duplicate <- sum(duplicated(q[validline, c("SEQN", 
+                paste0(dr, "ILINE"))]))
+            stopifnot(duplicate == 0)
+            src <- q[[paste0(dr, "FS")]]
+            kcal <- q[[paste0(dr, "IKCAL")]]
+            fast <- ifelse(!is.na(src) & src == 3, kcal, 0)
+            agg <- rowsum(cbind(fast_kcal = fast, iff_kcal = kcal, 
+                n_items = as.numeric(validline)), q$SEQN, na.rm = FALSE)
+            agg <- data.frame(SEQN = as.numeric(rownames(agg)), 
+                agg, row.names = NULL)
+            iff[[tag]] <- agg
+            tot <- as.data.frame(read_xpt(file.path(old, paste0(stem(paste0(dr, 
+                "TOT")), ".xpt"))))
+            di <- demo[match(tot$SEQN, demo$SEQN), c("RIDAGEYR", 
+                "SDMVSTRA", "SDMVPSU")]
+            stopifnot(!anyNA(di$RIDAGEYR), !anyDuplicated(tot$SEQN))
+            tot <- cbind(tot, di[, setdiff(names(di), names(tot)), 
+                drop = FALSE])
+            a <- agg[match(tot$SEQN, agg$SEQN), ]
+            denom <- tot[[paste0(dr, "TKCAL")]]
+            rel <- tot[[paste0(dr, "DRSTZ")]] == 1
+            missing_rows <- sum(rel & denom > 0 & is.na(a$SEQN), 
+                na.rm = TRUE)
+            missing_fast <- sum(rel & denom > 0 & is.na(a$fast_kcal), 
+                na.rm = TRUE)
+            stopifnot(missing_rows == 0, missing_fast == 0)
+            tot$share <- 100 * a$fast_kcal/denom
+            tot$share[!is.finite(tot$share) | is.na(denom) | 
+                denom <= 0] <- NA_real_
+            dif <- a$iff_kcal - denom
+            sel <- rel & denom > 0 & is.finite(dif)
+            qa[[tag]] <- data.frame(cycle = cy, day = day, iff_rows = nrow(q), 
+                iff_persons = nrow(agg), duplicate_food_keys = duplicate, 
+                reliable_positive_energy_missing_IFF = missing_rows, 
+                missing_fast_amount = missing_fast, max_abs_energy_sum_minus_TOT = max(abs(dif[sel])), 
+                n_nonzero_energy_sum_minus_TOT = sum(abs(dif[sel]) > 
+                  1e-08), n_share_above_100 = sum(tot$share > 
+                  100, na.rm = TRUE), n_share_below_0 = sum(tot$share < 
+                  0, na.rm = TRUE), reliable_adult_zero_energy = sum(rel & 
+                  tot$RIDAGEYR >= 20 & denom == 0, na.rm = TRUE))
+            tod[[tag]] <- tot
+        }
+    }, outcsv(do.call(rbind, qa), "results/IFF_QA.csv"), saveRDS(list(iff = iff, 
+        totals = tod), file.path(root, "data/derived_fast_food.rds")), 
+    cal <- list(), targets <- c(H = 14.1, I = 13.1, P = 13.4, 
+        L = 11.7), tn <- c(H = 5045, I = 5015, P = 7705, L = 4792), 
+    for (cy in names(targets)) {
+        d <- tod[[paste0(cy, "_1")]]
+        wv <- if (cy == "P") 
+            "WTDRD1PP"
+        else "WTDRD1"
+        d$w <- d[[wv]]
+        d <- d[!is.na(d$w) & d$w > 0, ]
+        d$eligible <- d$RIDAGEYR >= 20 & d$DR1DRSTZ == 1 & d$DR1TKCAL > 
+            0 & is.finite(d$share)
+        des <- svydesign(ids = ~SDMVPSU, strata = ~SDMVSTRA, 
+            weights = ~w, data = d, nest = TRUE)
+        ds <- subset(des, eligible)
+        m <- svymean(~share, ds)
+        e <- as.numeric(coef(m))
+        s <- as.numeric(SE(m))
+        df <- degf(ds)
+        ci <- e + c(-1, 1) * qt(0.975, df) * s
+        cal[[cy]] <- data.frame(cycle = cy, n_persons = sum(d$eligible), 
+            official_n = tn[cy], mean_pct = e, se = s, df = df, 
+            ci_low = ci[1], ci_high = ci[2], official_mean_pct = targets[cy], 
+            error_pp = e - targets[cy], absolute_error_pp = abs(e - 
+                targets[cy]), status = if (abs(e - targets[cy]) <= 
+                0.3) 
+                "PASS"
+            else "FAIL")
+    }, cal <- do.call(rbind, cal), outcsv(cal, "results/calibration.csv"), 
+    fg <- data.frame(cycle = cal$cycle, time = c(H = 2014, I = 2016, 
+        P = 2018.6, L = 2022.7)[cal$cycle], scenario = "original", 
+        mean_pct = cal$mean_pct, se = cal$se, ci_low = cal$ci_low, 
+        ci_high = cal$ci_high, n_persons = cal$n_persons, inference = "Taylor", 
+        status = "CALIBRATION_ONLY", correction_status = "NOT_RUN", 
+        trend_status = "NOT_RUN"), outcsv(fg, "figdata/x1_trend.csv"), 
+    run$calibration <- if (all(cal$status == "PASS")) "PASS" else "FAIL", 
+    run$stage <- "CALIBRATION", if (run$calibration == "FAIL") {
+        run$verdict <- "CALIBRATION_FAIL"
+        outjson(run, "results/run_status.json")
+        quit(status = 0)
+    }, outjson(run, "results/run_status.json"), print(cal, row.names = FALSE), 
+    z <- readRDS("outputs/S1_writing/provenance/analysis_input.rds"), 
+    d <- z$data, for (day in 1:2) {
+        keys <- paste(d$cycle, d$SEQN, sep = ":")
+        a <- do.call(rbind, lapply(cycs, function(cy) {
+            x <- iff[[paste(cy, day, sep = "_")]]
+            x$key <- paste(cy, x$SEQN, sep = ":")
+            x
+        }))
+        den <- d[[paste0("DR", day, "TKCAL")]]
+        v <- 100 * a$fast_kcal[match(keys, a$key)]/den
+        v[!is.finite(v) | is.na(den) | den <= 0] <- NA_real_
+        d[[paste0("share", day)]] <- v
+    }, d$D <- d$share2 - d$share1, d$outcome_complete <- is.finite(d$D), 
+    raw <- readRDS("work/nhanes_stage_a_merged.rds"), flow <- do.call(rbind, 
+        lapply(cycs, function(cy) {
+            x <- d[d$cycle == cy, ]
+            data.frame(cycle = cy, frozen_eligible_persons = sum(raw[[cy]]$adult), 
+                positive_weight_adults = sum(x$adult), paired_ratio_defined = sum(x$adult & 
+                  x$outcome_complete), covariates_complete = sum(x$adult & 
+                  x$cov_complete), model_complete = sum(x$adult & 
+                  x$cov_complete & x$outcome_complete))
+        })), outcsv(flow, "results/person_counts.csv"), dc <- d[d$cycle != 
+        "L", ], dc$cycle <- droplevels(dc$cycle), dc$w <- dc$WTDR2D/4, 
+    cd <- svydesign(ids = ~psu, strata = ~stratum, weights = ~w, 
+        data = dc, nest = TRUE), cd <- subset(cd, adult & outcome_complete), 
+    hm <- svyglm(D ~ cycle, design = cd), ht <- regTermTest(hm, 
+        ~cycle, method = "Wald"), tr <- svyglm(D ~ time, design = cd), 
+    a <- c(1, 2022.7 - 2015), ex <- sum(a * coef(tr)), xs <- sqrt(drop(t(a) %*% 
+        vcov(tr) %*% a)), xc <- ex + c(-1, 1) * qt(0.975, tr$df.residual) * 
+        xs, mu <- svymean(~D, cd), width <- diff(xc), bound <- 2 * 
+        abs(as.numeric(coef(mu))), hp <- as.numeric(ht$p), bg <- data.frame(outcome = "fast_food_energy_pct", 
+        n_persons = nobs(hm), wald_F = as.numeric(ht$Ftest), 
+        wald_num_df = as.numeric(ht$df), wald_den_df = as.numeric(ht$ddf), 
+        wald_p = hp, control_D_mean = as.numeric(coef(mu)), control_D_se = as.numeric(SE(mu)), 
+        trend_per_year = unname(coef(tr)["time"]), trend_se = unname(SE(tr)["time"]), 
+        trend_df = tr$df.residual, trend_p = summary(tr)$coefficients["time", 
+            4], L_extrapolated_D = ex, L_extrapolated_se = xs, 
+        L_ci_low = xc[1], L_ci_high = xc[2], L_ci_width = width, 
+        width_threshold = bound, wald_pass = hp > 0.05, width_pass = width < 
+            bound, pretrend_pass = hp > 0.05 & width < bound), 
+    outcsv(bg, "results/pretrend_gate.csv"), print(bg, row.names = FALSE), 
+    full <- svydesign(ids = ~psu, strata = ~stratum, weights = ~w, 
+        data = d, nest = TRUE), cm <- do.call(rbind, lapply(cycs, 
+        function(cy) {
+            ds <- subset(full, adult & outcome_complete & cycle == 
+                cy)
+            m <- svymean(~share1 + share2 + D, ds)
+            data.frame(cycle = cy, n_persons = nrow(ds$variables), 
+                day1_pct = coef(m)[1], day2_pct = coef(m)[2], 
+                D_pp = coef(m)[3], D_se = SE(m)[3])
+        })), outcsv(cm, "results/paired_cycle_means.csv"), des <- subset(full, 
+        adult & cov_complete & outcome_complete), mods <- list(), 
+    est <- list(), refs <- c("control_mean", "linear_extrapolation"), 
+    for (ref in refs) {
+        rhs <- paste("is_L +", z$covariates, if (ref == "linear_extrapolation") 
+            "+ time"
+        else "")
+        mod <- svyglm(as.formula(paste("D~", rhs)), design = des)
+        mods[[ref]] <- mod
+        be <- unname(coef(mod)["is_L"])
+        se <- unname(SE(mod)["is_L"])
+        df <- mod$df.residual
+        ci <- be + c(-1, 1) * qt(0.975, df) * se
+        est[[ref]] <- data.frame(reference = ref, n_persons = nobs(mod), 
+            DiD_pp = be, se = se, df = df, ci_low = ci[1], ci_high = ci[2], 
+            p = 2 * pt(-abs(be/se), df), inference = "Taylor", 
+            interpretation = if (bg$pretrend_pass) 
+                "identified_under_assumptions"
+            else "descriptive_DiD_NOT_IDENTIFIED")
+    }, est <- do.call(rbind, est), outcsv(est, "results/DiD_Taylor.csv"), 
+    print(est, row.names = FALSE), saveRDS(list(data = d, calibration = cal, 
+        pretrend = bg, models = mods, full_design = full), file.path(root, 
+        "data/analysis_models.rds")), b <- readRDS("outputs/S2_uncertainty/provenance/bootstrap_weights.rds"), 
+    pm <- read.csv("outputs/S2_uncertainty/provenance/PSU_multiplier_matrix.csv"), 
+    stopifnot(length(b$repweights$index) == nrow(d), ncol(b$repweights$weights) == 
+        200, all(as.character(pm$psu[b$repweights$index]) == 
+        as.character(d$psu)), max(abs(as.matrix(pm[, -(1:3)]) - 
+        b$repweights$weights)) == 0), cc <- d$adult & d$cov_complete & 
+        d$outcome_complete, Xs <- lapply(mods, function(m) model.matrix(delete.response(terms(m)), 
+        data = d[cc, ])), repout <- list(), for (r in 1:200) for (ref in refs) {
+        mul <- b$repweights$weights[b$repweights$index, r]
+        fit <- tryCatch(lm.wfit(Xs[[ref]], d$D[cc], d$WTDR2D[cc] * 
+            mul[cc]/5), error = function(e) e)
+        beta <- if (inherits(fit, "error")) 
+            NA_real_
+        else unname(fit$coefficients["is_L"])
+        repout[[paste(r, ref)]] <- data.frame(replicate = r, 
+            reference = ref, DiD_pp = beta, status = if (is.finite(beta)) 
+                "PASS"
+            else "FAIL", reason = if (inherits(fit, "error")) 
+                conditionMessage(fit)
+            else if (!is.finite(beta)) 
+                "NONFINITE_DID"
+            else "")
+    }, rp <- do.call(rbind, repout), outcsv(rp, "results/DiD_200_replicates.csv"), 
+    bs <- do.call(rbind, lapply(refs, function(ref) {
+        v <- rp$DiD_pp[rp$reference == ref]
+        point <- est$DiD_pp[est$reference == ref]
+        ok <- sum(is.finite(v))
+        s <- if (ok == 200) 
+            sqrt(b$scale * sum(b$rscales * (v - point)^2))
+        else NA_real_
+        ci <- point + c(-1, 1) * qt(0.975, degf(full)) * s
+        data.frame(reference = ref, DiD_pp = point, se = s, ci_low = ci[1], 
+            ci_high = ci[2], df = degf(full), successful_replicates = ok, 
+            failed_replicates = 200 - ok, inference = "Rao-Wu_200_S2_exact_matrix", 
+            status = if (ok == 200) 
+                "PASS"
+            else "NOT_RUN")
+    })), outcsv(bs, "results/DiD_bootstrap_CI.csv"), print(bs, 
+        row.names = FALSE), run$stage <- "PRETREND_AND_DID_COMPLETE", 
+    run$pretrend <- if (bg$pretrend_pass) "PASS" else "FAIL", 
+    run$did <- "PASS", run$did_bootstrap <- if (all(bs$status == 
+        "PASS")) "PASS" else "NOT_RUN", run$correction <- if (bg$pretrend_pass) "PENDING" else "NOT_RUN_PRETREND_FAIL", 
+    run$trend <- if (bg$pretrend_pass) "PENDING_DESIGN_COVERAGE" else "NOT_RUN_PRETREND_FAIL", 
+    run$verdict <- if (bg$pretrend_pass) "NOT_RUN" else "NOT_IDENTIFIED", 
+    run$finished_utc <- stamp(), outjson(run, "results/run_status.json"), 
+    fg$correction_status <- run$correction, fg$trend_status <- run$trend, 
+    outcsv(fg, "figdata/x1_trend.csv"), capture.output(sessionInfo(), 
+        file = file.path(root, "provenance/R_sessionInfo.txt")))
+SYNTAX_OK

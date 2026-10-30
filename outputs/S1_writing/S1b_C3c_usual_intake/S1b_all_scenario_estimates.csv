@@ -1,0 +1,7 @@
+scenario,nutrient,n_eligible_persons,n_model_persons,usual_intake_mean_mg,below_EAR_percent,interpretation,sampling_CI,DiD_uncertainty
+original,iron,4285,4041,12.7444478433422,8.50121676667137,nominal below-EAR only; NO_VALID_RESULT for full-adult inadequacy prevalence,NOT_RUN,NOT_PROPAGATED
+original,calcium,4285,4041,891.078186891664,51.6119205887711,food/beverage inadequacy estimate conditional on NCI and cutpoint assumptions,NOT_RUN,NOT_PROPAGATED
+control_mean,iron,4285,4041,13.3010995474139,7.30375657393576,nominal below-EAR only; NO_VALID_RESULT for full-adult inadequacy prevalence,NOT_RUN,NOT_PROPAGATED
+control_mean,calcium,4285,4041,926.843483379732,47.7935711644097,food/beverage inadequacy estimate conditional on NCI and cutpoint assumptions,NOT_RUN,NOT_PROPAGATED
+linear_extrapolation,iron,4285,4041,13.0771737854114,7.7612470395714,nominal below-EAR only; NO_VALID_RESULT for full-adult inadequacy prevalence,NOT_RUN,NOT_PROPAGATED
+linear_extrapolation,calcium,4285,4041,952.450195131153,45.1672437395352,food/beverage inadequacy estimate conditional on NCI and cutpoint assumptions,NOT_RUN,NOT_PROPAGATED

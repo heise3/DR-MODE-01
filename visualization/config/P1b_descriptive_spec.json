@@ -1,0 +1,75 @@
+{
+  "task": "P1b",
+  "created_utc": "2026-10-30T08:38:07.067050+00:00",
+  "scope": "descriptive Table S1 and schematic only; all inferential analyses carried unchanged",
+  "input": "outputs/S1_writing/provenance/analysis_input.rds; independently verify against sealed public XPT files",
+  "population": "adult flag from sealed input: age>=20, both reliable, DRABF!=1; positive WTDR2D",
+  "expected_n": {
+    "G": 4309,
+    "H": 4479,
+    "I": 4204,
+    "J": 4139,
+    "L": 4285
+  },
+  "weight": "WTDR2D within each cycle; no raking",
+  "age_groups": [
+    "20–39",
+    "40–59",
+    "≥60"
+  ],
+  "race_codes": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    7
+  ],
+  "education_valid_codes": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "categorical_display": "unweighted n (WTDR2D-weighted %); denominator = variable nonmissing persons in each cycle; education invalid/refused/dont_know -> missing",
+  "non_English": "valid harmonized language code !=1; includes bilingual interviews",
+  "proxy": "sealed proxy1/proxy2 mapping, valid nonself respondents",
+  "weekend": "Saturday/Sunday, original day codes 7/1",
+  "interval": "abs(DR1DBIH-DR2DBIH); no imputation",
+  "weighted_quantiles": "lower inverse empirical weighted CDF: smallest observed x with cumulative WTDR2D >= p * sum(WTDR2D), p=0.25 and 0.75; no interpolation",
+  "rounding": "n integer with thousands separators; weighted means, percentages, quartiles 1 decimal, directly from full precision",
+  "tests": "none; no P values, SEs, CIs, trends, or new correction estimates",
+  "figure1": {
+    "time_axis": "Days after MEC examination",
+    "ticks": [
+      0,
+      5,
+      10,
+      15
+    ],
+    "earlier_recall1": 0,
+    "earlier_recall2": {
+      "range": [
+        3,
+        10
+      ],
+      "midpoint": 6.5
+    },
+    "later_recall1": {
+      "range": [
+        3,
+        7
+      ],
+      "midpoint": 5
+    },
+    "later_recall2": {
+      "range": [
+        6,
+        17
+      ],
+      "midpoint": 11.5
+    },
+    "mode_formula": "Mode effect = −DiD"
+  }
+}

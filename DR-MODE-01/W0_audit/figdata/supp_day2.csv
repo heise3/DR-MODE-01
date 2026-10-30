@@ -1,0 +1,3 @@
+outcome,contrast,n_J,n_L,J_mean,L_mean,change,se,df,ci_low,ci_high,adjustment,ci_method,source_package,source_file,source_line,publication_position,limitation
+Y1,Day2_L_minus_J,4139,4285,15.4422172584395,15.2476206572132,-0.194596601226364,0.368074713414786,30,-0.946305450294353,0.557112247841625,none; descriptive paired-adult domain; WTDR2D,Taylor; independent cycle contrasts; t with sum cycle df,S1,outputs/S1_writing/S1c_day2_direct.csv,3,附表,未调整；描述性；受间隔和应答变化影响
+Y2,Day2_L_minus_J,4139,4285,7.4826284104984,7.5222816352937,0.0396532247952903,0.0184554678081871,30,0.00196213122247565,0.077344318368105,none; descriptive paired-adult domain; WTDR2D,Taylor; independent cycle contrasts; t with sum cycle df,S1,outputs/S1_writing/S1c_day2_direct.csv,6,附表,未调整；描述性；受间隔和应答变化影响

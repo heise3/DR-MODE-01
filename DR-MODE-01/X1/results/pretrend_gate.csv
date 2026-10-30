@@ -1,0 +1,2 @@
+"outcome","n_persons","wald_F","wald_num_df","wald_den_df","wald_p","control_D_mean","control_D_se","trend_per_year","trend_se","trend_df","trend_p","L_extrapolated_D","L_extrapolated_se","L_ci_low","L_ci_high","L_ci_width","width_threshold","wald_pass","width_pass","pretrend_pass"
+"fast_food_energy_pct",17110,0.768581612022009,3,59,0.516208481247033,-1.11203006723091,0.342257602999016,0.101420318472797,0.140433566581868,61,0.47293462386609,-0.336639488230771,1.18234106190166,-2.70087656111728,2.02759758465574,4.72847414577302,2.22406013446183,TRUE,FALSE,FALSE

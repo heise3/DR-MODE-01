@@ -1,0 +1,6 @@
+"cycle","n_adults","n_interval_available","n_interval_missing","mean_interval","min_interval","max_interval","n_signed_negative","n_interval_3_10","n_weekday_arithmetic_disagreement"
+"G",4309,4296,13,8.09660148975794,1,148,0,3814,0
+"H",4479,4443,36,6.30204816565383,2,128,0,4078,0
+"I",4204,4105,99,8.29037758830694,2,120,0,3532,0
+"J",4139,3990,149,8.48696741854636,2,112,0,3361,0
+"L",4285,4041,244,9.09750061865875,3,106,0,3221,0

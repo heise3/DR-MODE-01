@@ -1,0 +1,7 @@
+{
+  "replicate": 32,
+  "finished": "2026-10-29 23:18:23 UTC",
+  "seconds": 41.6714,
+  "status": "ATTEMPTS_COMPLETE",
+  "scenario_status": ["COMPLETE", "COMPLETE", "NO_VALID_RESULT"]
+}

@@ -1,0 +1,3 @@
+"nutrient","n_eligible_persons","n_model_persons","shift_log1p","day2_max_absolute_change","day1_zero_persons","day2_zero_persons","known_pregnant_persons","women20_50_persons","minimum_input"
+"iron",4285,4041,0.0395755292301531,0,0,2,30,794,0
+"calcium",4285,4041,0.0406746638510242,0,0,0,30,794,0.0415132085243741

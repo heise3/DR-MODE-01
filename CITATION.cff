@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please cite this versioned code and protocol archive using its release URL and commit."
+type: software
+title: "DR-MODE-01: NHANES dietary-recall mode-change code and frozen protocols"
+version: 1.0.0
+date-released: 2026-10-30
+url: "https://github.com/heise3/DR-MODE-01/releases/tag/v1.0.0"
+repository-code: "https://github.com/heise3/DR-MODE-01"
+license: MIT
+authors:
+  - family-names: Liang
+    given-names: Peng
+  - family-names: Wu
+    given-names: Jie
+  - family-names: Li
+    given-names: BaoLong
+  - family-names: Wu
+    given-names: XiangYan
+  - family-names: Zhu
+    given-names: Xiaona

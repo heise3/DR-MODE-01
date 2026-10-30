@@ -1,0 +1,44 @@
+{
+  "version": "1.0",
+  "contract_sha256": "902328b9d98817f6982f0ee169bb1809f20e55e9a0178c7c15d1cfb495d76d27",
+  "frozen_at_utc": "2026-10-29T14:02:42.692515+00:00",
+  "contract_encoding": "UTF-8; LF; final newline; saved user contract",
+  "stage": "A",
+  "verdict": "NOT_RUN",
+  "execution_state": "RUNNING",
+  "gates": {
+    "A0": {
+      "status": "NOT_RUN",
+      "reason": "Prerequisite stage pending"
+    },
+    "A1": {
+      "status": "NOT_RUN",
+      "reason": "Prerequisite stage pending"
+    },
+    "A2": {
+      "status": "NOT_RUN",
+      "reason": "Prerequisite stage pending"
+    },
+    "A3": {
+      "status": "NOT_RUN",
+      "reason": "Prerequisite stage pending"
+    },
+    "B": {
+      "status": "NOT_RUN",
+      "reason": "Prerequisite stage pending"
+    },
+    "C1": {
+      "status": "NOT_RUN",
+      "reason": "Prerequisite stage pending"
+    },
+    "C2": {
+      "status": "NOT_RUN",
+      "reason": "Prerequisite stage pending"
+    },
+    "C3": {
+      "status": "NOT_RUN",
+      "reason": "Prerequisite stage pending"
+    }
+  },
+  "n_adults_by_cycle": {}
+}

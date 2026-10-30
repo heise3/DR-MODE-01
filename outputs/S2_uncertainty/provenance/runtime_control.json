@@ -1,0 +1,7 @@
+{
+  "start_unix": 1793314887.452799,
+  "deadline_unix": 1793444487.452799,
+  "max_hours": 36,
+  "planned_replicates": 200,
+  "workers": 4
+}

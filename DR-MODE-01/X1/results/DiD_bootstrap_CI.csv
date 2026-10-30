@@ -1,0 +1,3 @@
+"reference","DiD_pp","se","ci_low","ci_high","df","successful_replicates","failed_replicates","inference","status"
+"control_mean",0.338607836285998,0.717962529104261,-1.09103820551702,1.76825387808902,77,200,0,"Rao-Wu_200_S2_exact_matrix","PASS"
+"linear_extrapolation",-0.436388931925028,1.37700455960148,-3.17835531370133,2.30557744985127,77,200,0,"Rao-Wu_200_S2_exact_matrix","PASS"

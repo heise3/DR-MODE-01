@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "independent_DiD_and_Taylor_SE": "PASS",
+  "S2_Rao_Wu_200_matrix": "PASS",
+  "cycle_difference_identity": "PASS",
+  "replicate_success_by_reference": {
+    "control_mean": 200,
+    "linear_extrapolation": 200
+  },
+  "frozen_person_counts": "PASS",
+  "gate_logic": "PASS",
+  "max_coefficient_error": 4.6629367034256575e-15,
+  "max_SE_error": 1.7763568394002505e-15
+}

@@ -1,0 +1,9 @@
+{
+  "replicates": 200,
+  "PSU_multipliers_rescaling_max_error": 0,
+  "same_multiplier_within_PSU": true,
+  "original_energy_point_error": 0,
+  "negative_weights": 0,
+  "control_mean_energy_point_error": 0,
+  "linear_extrapolation_energy_point_error": 0
+}

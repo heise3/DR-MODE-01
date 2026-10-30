@@ -1,0 +1,6 @@
+"cycle","n_strata","n_PSU","native_stratum_min","native_stratum_max","main_weight_divisor","control_weight_divisor"
+"G",14,31,90,103,5,4
+"H",15,30,104,118,5,4
+"I",15,30,119,133,5,4
+"J",15,30,134,148,5,4
+"L",15,30,173,187,5,NA

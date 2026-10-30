@@ -1,0 +1,6 @@
+"cycle","n_persons","n_joint_cells","n_positive_J_target_cells","n_positive_target_cells_absent_in_cycle","target_population_fraction_in_absent_cells","rake_call_status"
+"G",4293,180,175,1,0.000286690128715394,"FAILED_STRUCTURAL_ZERO"
+"H",4440,180,175,4,0.000652759331211507,"FAILED_STRUCTURAL_ZERO"
+"I",4104,180,175,6,0.00224138758368853,"FAILED_STRUCTURAL_ZERO"
+"J",3986,180,175,0,0,"EXECUTED"
+"L",4041,180,175,12,0.00466186202305099,"FAILED_STRUCTURAL_ZERO"

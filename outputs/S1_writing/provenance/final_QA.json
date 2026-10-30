@@ -1,0 +1,23 @@
+{
+  "verified_at_utc": "2026-10-29T22:37:07.987741+00:00",
+  "sealed_files_verified": 127,
+  "changed_files": [],
+  "missing_files": [],
+  "added_files": [],
+  "original_zip_sha256": "fd744751c74f773feb6340cec2d1c03435c5fdea7f02bf0e44813a8544d42817",
+  "v1_verdict": "GO_UNCHANGED",
+  "raking_exact_original_fields": true,
+  "identity_max_absolute_error": 7.90478793533111e-14,
+  "raw_input_reconstruction": {
+    "source": "sealed public XPT files; mappings copied from sealed code",
+    "n_by_cycle": {
+      "G": 4309,
+      "H": 4479,
+      "I": 4204,
+      "J": 4139,
+      "L": 4285
+    },
+    "data_identical_to_v1_cache": true
+  },
+  "NCI_day2_mode_shift_max": 0.0
+}

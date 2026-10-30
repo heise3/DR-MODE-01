@@ -1,0 +1,18 @@
+{
+  "scenario": "control_mean",
+  "started": "2026-10-29 22:28:42 UTC",
+  "finished": "2026-10-29 22:30:25 UTC",
+  "elapsed_seconds": 102.75506806373596,
+  "status": "COMPLETED",
+  "n_persons": 4041,
+  "chains": 4,
+  "iterations": 12000,
+  "burnin": 2000,
+  "thin": 25,
+  "distribution_draws_per_person": 2000,
+  "max_Rhat": 1.0041341646232493,
+  "min_ESS": 706.5951077876158,
+  "package": "1.1.2",
+  "sampling_CI": "NOT_RUN",
+  "v1_verdict": "GO_UNCHANGED"
+}

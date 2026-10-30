@@ -1,0 +1,12 @@
+"cycle","day","iff_rows","iff_persons","duplicate_food_keys","reliable_positive_energy_missing_IFF","missing_fast_amount","max_abs_energy_sum_minus_TOT","n_nonzero_energy_sum_minus_TOT","n_share_above_100","n_share_below_0","reliable_adult_zero_energy"
+"G",1,126503,8519,0,0,0,0,0,0,0,1
+"G",2,112101,7605,0,0,0,0,0,0,0,6
+"H",1,131394,8661,0,0,0,0,0,0,0,0
+"H",2,112578,7573,0,0,0,0,0,0,0,7
+"I",1,121481,8505,0,0,0,0,0,0,0,0
+"I",2,100680,7027,0,0,0,0,0,0,0,4
+"J",1,112683,7640,0,0,0,0,0,0,0,1
+"J",2,93500,6639,0,0,0,0,0,0,0,2
+"L",1,100116,6751,0,0,0,0,0,0,0,5
+"L",2,88032,5879,0,0,0,0,0,0,0,1
+"P",1,183910,12632,0,0,0,0,0,0,0,2

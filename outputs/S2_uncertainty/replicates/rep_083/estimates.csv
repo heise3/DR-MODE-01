@@ -1,0 +1,4 @@
+"replicate","endpoint","scale","scenario","n_eligible_persons","n_nonzero_weight_persons","DiD_calcium","DiD_iron_nuisance","estimate","mean_mg","status","reason","negative_calcium_persons","negative_iron_persons","max_Rhat","min_ESS","iterations","burnin","thin","distribution_MCSE","seconds"
+83,"calcium","percent_below_EAR","original",4285,2021,0,0,51.1712297288099,895.868443535792,"COMPLETE","",0,0,1.01737362768168,196.887257484858,3000,1000,5,0.0328818571124215,22.2296810150146
+83,"calcium","percent_below_EAR","control_mean",4285,2021,0.0293416767899012,0.0487245186159329,48.4757638205048,921.997336730396,"COMPLETE","",0,0,1.01060947900006,222.524279407896,3000,1000,5,0.0326709835842785,24.5943739414215
+83,"calcium","percent_below_EAR","linear_extrapolation",4285,2021,0.0525045915997471,0.050222543879457,46.3379654011613,942.87444438585,"COMPLETE","",0,0,1.01047477989295,210.899778131735,3000,1000,5,0.0322569763348801,22.6672070026398

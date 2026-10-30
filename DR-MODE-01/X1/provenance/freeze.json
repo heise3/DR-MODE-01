@@ -1,0 +1,17 @@
+{
+  "task": "X1",
+  "version": "1.0",
+  "stage": "FROZEN_BEFORE_OUTCOME_READ",
+  "contract_sha256": "49dea93380750133d4a7f18995be5387bd353de69448b9caf8aa7bbb63bccdd5",
+  "frozen_at_utc": "2026-10-30T02:06:59.811973+00:00",
+  "fast_food_outcomes_read": false,
+  "protected_files": 4794,
+  "input_hashes": {
+    "outputs/S1_writing/provenance/analysis_input.rds": "b51e78c4f81d8f478ae90e942005acc29b7a728cbb93367eaf770d884e819d8e",
+    "outputs/S2_uncertainty/provenance/PSU_multiplier_matrix.csv": "518b30594e358aceede55b73b61d834259be2af9a4fe9b8c52eca519516a03b3",
+    "outputs/S2_uncertainty/provenance/bootstrap_weights.rds": "a8c71617f1afcdeacd587036f385258aa7764c88d6fcaa7e1dace431ef7d3ec4",
+    "outputs/DR-MODE-01/config/execution_spec.json": "cdb6970a2d9df9d6c71e72f26b3037d261b56150e60d81873ed2aeb934f27362"
+  },
+  "verdict": "NOT_RUN",
+  "reason": "Contract frozen; execution pending"
+}

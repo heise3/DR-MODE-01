@@ -1,0 +1,4 @@
+scenario,chains,iterations_per_chain,burnin,thin,retained_draws_per_chain,max_Rhat,min_ESS,model_persons
+original,4,12000,2000,25,400,1.0063753070559,806.707224344071,4041
+control_mean,4,12000,2000,25,400,1.00413416462325,706.595107787616,4041
+linear_extrapolation,4,12000,2000,25,400,1.00411043429809,674.723325342463,4041

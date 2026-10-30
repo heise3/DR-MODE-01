@@ -1,0 +1,7 @@
+{
+  "C3b_pass": true,
+  "C3a_arithmetic": "EXECUTED_AS_WRITTEN",
+  "C3a_counterfactual_status": "NO_VALID_RESULT",
+  "C3a_reason": "Literal L + (-DiD) adds the telephone-minus-inperson effect; it does not remove it",
+  "C3b_scale": "Contract-defined outcome scale; signed point-estimate ratio; no ratio CI computed"
+}

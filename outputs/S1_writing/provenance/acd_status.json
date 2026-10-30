@@ -1,0 +1,27 @@
+{
+  "S1a": "COMPLETE",
+  "S1c": "COMPLETE",
+  "S1d": "COMPLETE",
+  "identity": [
+    {
+      "outcome": "Y1",
+      "delta_Day2": -0.19459660122636357,
+      "delta_Day1": -1.2353483841969606,
+      "DiD_J": 1.0407517829706761,
+      "closure_error": -7.9047879353311146e-14,
+      "variance_closure_error": 1.8735013540549517e-16,
+      "_row": "Y1"
+    },
+    {
+      "outcome": "Y2",
+      "delta_Day2": 0.039653224795290321,
+      "delta_Day1": -0.061268092312797506,
+      "DiD_J": 0.10092131710807967,
+      "closure_error": 8.1601392309949006e-15,
+      "variance_closure_error": -5.4210108624275222e-19,
+      "_row": "Y2"
+    }
+  ],
+  "raking_rows_copied": 24,
+  "v1_unchanged": true
+}

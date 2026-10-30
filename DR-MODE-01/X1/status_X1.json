@@ -1,0 +1,95 @@
+{
+  "task": "X1",
+  "version": "1.0",
+  "stage": "TERMINAL",
+  "contract_sha256": "49dea93380750133d4a7f18995be5387bd353de69448b9caf8aa7bbb63bccdd5",
+  "frozen_at_utc": "2026-10-30T02:06:59.811973+00:00",
+  "fast_food_outcomes_read": true,
+  "protected_files": 4794,
+  "input_hashes": {
+    "outputs/S1_writing/provenance/analysis_input.rds": "b51e78c4f81d8f478ae90e942005acc29b7a728cbb93367eaf770d884e819d8e",
+    "outputs/S2_uncertainty/provenance/PSU_multiplier_matrix.csv": "518b30594e358aceede55b73b61d834259be2af9a4fe9b8c52eca519516a03b3",
+    "outputs/S2_uncertainty/provenance/bootstrap_weights.rds": "a8c71617f1afcdeacd587036f385258aa7764c88d6fcaa7e1dace431ef7d3ec4",
+    "outputs/DR-MODE-01/config/execution_spec.json": "cdb6970a2d9df9d6c71e72f26b3037d261b56150e60d81873ed2aeb934f27362"
+  },
+  "verdict": "NOT_IDENTIFIED",
+  "reason": "Pretrend extrapolated 95% CI width >= 2*abs(control D mean); correction prohibited by frozen contract",
+  "completed_at_utc": "2026-10-30T02:15:02.696717+00:00",
+  "gates": {
+    "calibration": {
+      "status": "PASS",
+      "max_absolute_error_pp": 0.043383741938575,
+      "delta_H_to_L_pp": -2.370193823338001,
+      "official_delta_pp": -2.4,
+      "N_exact_match": false,
+      "N_difference_H_I_P_L": [
+        2,
+        2,
+        0,
+        1
+      ]
+    },
+    "pretrend": {
+      "status": "FAIL",
+      "wald_p": 0.516208481247033,
+      "control_D_mean": -1.11203006723091,
+      "L_ci_low": -2.70087656111728,
+      "L_ci_high": 2.02759758465574,
+      "L_ci_width": 4.72847414577302,
+      "width_threshold": 2.22406013446183,
+      "wald_pass": true,
+      "width_pass": false
+    },
+    "DiD": {
+      "status": "PASS",
+      "n_persons": 20850,
+      "interpretation": "descriptive; mode effect NOT_IDENTIFIED"
+    },
+    "correction": {
+      "status": "NOT_RUN",
+      "reason": "PRETREND_FAIL"
+    },
+    "trend_reestimation": {
+      "status": "NOT_RUN",
+      "reason": "PRETREND_FAIL"
+    },
+    "joint_trend_bootstrap": {
+      "status": "NOT_RUN",
+      "reason": "PRETREND_FAIL; frozen preflight also records no P coverage in S2 matrix"
+    },
+    "DiD_bootstrap": {
+      "status": "PASS",
+      "replicates": 200,
+      "references": 2,
+      "failed_per_reference": 0,
+      "same_S2_matrix": true,
+      "seed": 2026102902,
+      "method": "Rao-Wu rescaled stratified PSU bootstrap"
+    }
+  },
+  "protected_package_verification": {
+    "status": "PASS",
+    "files_before": 4794,
+    "files_after": 4794,
+    "modified": [],
+    "missing": [],
+    "added": []
+  },
+  "numerical_QA": {
+    "status": "PASS",
+    "independent_DiD_and_Taylor_SE": "PASS",
+    "S2_Rao_Wu_200_matrix": "PASS",
+    "cycle_difference_identity": "PASS",
+    "replicate_success_by_reference": {
+      "control_mean": 200,
+      "linear_extrapolation": 200
+    },
+    "frozen_person_counts": "PASS",
+    "gate_logic": "PASS",
+    "max_coefficient_error": 4.6629367034256575e-15,
+    "max_SE_error": 1.7763568394002505e-15
+  },
+  "v1_terminal_verdict_carried": "GO",
+  "X1_changes_v1_verdict": false,
+  "no_threshold_changes": true
+}

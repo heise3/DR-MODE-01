@@ -1,0 +1,62 @@
+{
+  "version": "1.0",
+  "contract_sha256": "902328b9d98817f6982f0ee169bb1809f20e55e9a0178c7c15d1cfb495d76d27",
+  "frozen_at_utc": "2026-10-29T14:02:42.692515+00:00",
+  "contract_encoding": "UTF-8; LF; final newline; saved user contract",
+  "stage": "B",
+  "verdict": "PASS",
+  "execution_state": "RUNNING",
+  "gates": {
+    "A0": {
+      "status": "PASS",
+      "searches_used": 6,
+      "reason": "No STOP_DUP evidence found within six-query search; not proof of absence",
+      "evidence": "A_access/A0_duplicate_review.md"
+    },
+    "A1": {
+      "status": "PASS",
+      "datasets_downloaded": 15,
+      "codebooks_downloaded": 15,
+      "semantic_checks_passed": 10,
+      "evidence": "A_access/A1_semantic_verification.md"
+    },
+    "A2": {
+      "status": "PASS",
+      "mean_tolerance": 0.2,
+      "L_reliable_day1": 6694,
+      "evidence": "A_access/calibration.csv"
+    },
+    "A3": {
+      "status": "PASS",
+      "minimum_adults": 2500,
+      "evidence": "A_access/person_counts.csv"
+    },
+    "B": {
+      "status": "NOT_RUN",
+      "reason": "Prerequisite stage pending"
+    },
+    "C1": {
+      "status": "NOT_RUN",
+      "reason": "Prerequisite stage pending"
+    },
+    "C2": {
+      "status": "NOT_RUN",
+      "reason": "Prerequisite stage pending"
+    },
+    "C3": {
+      "status": "NOT_RUN",
+      "reason": "Prerequisite stage pending"
+    }
+  },
+  "n_adults_by_cycle": {
+    "G": 4309,
+    "H": 4479,
+    "I": 4204,
+    "J": 4139,
+    "L": 4285
+  },
+  "execution_spec_sha256": "cdb6970a2d9df9d6c71e72f26b3037d261b56150e60d81873ed2aeb934f27362",
+  "execution_spec_frozen_at_utc": "2026-10-29T14:07:26.879625+00:00",
+  "execution_spec_metadata_corrected_at_utc": "2026-10-29T14:08:49.875316+00:00",
+  "A_completed_at_utc": "2026-10-29T14:11:37.830534+00:00"
+}

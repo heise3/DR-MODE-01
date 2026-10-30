@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-30T00:04:58.229175+00:00",
+  "replicates_finished": 200,
+  "scenario_results": 600,
+  "status": {
+    "COMPLETE": 570,
+    "NO_VALID_RESULT": 30
+  },
+  "max_Rhat_complete": 1.0494217567662,
+  "long_chain_repairs_completed": 3,
+  "unexpected_errors": []
+}

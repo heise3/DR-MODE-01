@@ -1,0 +1,12 @@
+{
+  "status": "NOT_RUN",
+  "result_validity": "NO_VALID_RESULT",
+  "reason": "Full age x sex x race x education joint-target raking audited separately from four marginal raking. No cell collapsing or target replacement.",
+  "errors": {
+    "G": "Strata in sample absent from population. This Can't Happen",
+    "H": "Strata in sample absent from population. This Can't Happen",
+    "I": "Strata in sample absent from population. This Can't Happen",
+    "J": "NONE",
+    "L": "Strata in sample absent from population. This Can't Happen"
+  }
+}

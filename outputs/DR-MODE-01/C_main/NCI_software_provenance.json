@@ -1,0 +1,8 @@
+{
+  "source": "https://prevention.cancer.gov/sites/default/files/2025-08/ncimultivar_1.1.2.zip",
+  "version": "1.1.2",
+  "sha256_zip": "8f51820d6d763f39460448f2d628c8b037beb9aa6cf2629227c06bb331604913",
+  "sha256_tar_gz": "bf6fad16dfeb37e9134304a6b95065f1930a0d117c3788ee13d37b4765fa8865",
+  "installation": "work/Rlib",
+  "model_run": "NOT_RUN"
+}
