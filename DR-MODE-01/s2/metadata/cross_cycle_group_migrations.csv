@@ -1,0 +1,55 @@
+from_cycle,to_cycle,food_code,from_description,to_description,from_category,to_category,from_group,to_group,crosses_H_omit
+G,H,41205070,Hummus,Hummus,2802,8412,G7,G4,1
+G,H,92613510,"Corn beverage with chocolate and milk (Champurrado, Atole de Chocolate)",Atole de chocolate / Champurrado (cornmeal beverage with chocolate and milk),1402,7220,G5,G1,1
+I,J,14410380,"Cheese, processed cream cheese product, nonfat or fat free","Cream cheese spread, fat free",1602,8006,G5,G4,1
+I,J,27246400,Chicken or turkey souffle,Chicken or turkey souffle,2502,3004,G7,G6,0
+I,J,27250550,Seafood souffle,Seafood souffle,2502,3006,G7,G6,0
+I,J,41203030,Black bean salad,Black bean salad,2802,3102,G7,G6,0
+I,J,41209000,Falafel,Falafel,2802,3102,G7,G6,0
+I,J,41210000,Bean cake,Bean cake,2802,3102,G7,G6,0
+I,J,41221020,"Chili with beans, without meat","Chili with beans, without meat",2802,3102,G7,G6,0
+I,J,41311020,"Sambar, vegetable stew","Sambar, vegetable stew",6422,3104,G9,G6,0
+I,J,41425010,"Vermicelli, made from soybeans","Vermicelli, made from soybeans",4004,2806,G8,G7,0
+I,J,41811950,"Swiss steak, with gravy, meatless","Swiss steak, with gravy, meatless",2806,3102,G7,G6,0
+I,J,41812400,Vegetarian pot pie,Vegetarian pot pie,2806,3102,G7,G6,0
+I,J,41812450,"Vegetarian chili, made with meat substitute","Vegetarian chili, made with meat substitute",2806,3102,G7,G6,0
+I,J,41812800,Vegetarian stew,Vegetarian stew,2806,3104,G7,G6,0
+I,J,41812850,Vegetarian stroganoff,Vegetarian stroganoff,2806,3102,G7,G6,0
+I,J,58162090,"Stuffed pepper, with meat","Stuffed pepper, with meat",6422,3104,G9,G6,0
+I,J,58162110,"Stuffed pepper, with rice and meat","Stuffed pepper, with rice and meat",6422,3104,G9,G6,0
+I,J,58162120,"Stuffed pepper, with rice, meatless","Stuffed pepper, with rice, meatless",6422,3104,G9,G6,0
+I,J,58162130,"Stuffed tomato, with rice and meat","Stuffed tomato, with rice and meat",6422,3104,G9,G6,0
+I,J,58162140,"Stuffed tomato, with rice, meatless","Stuffed tomato, with rice, meatless",6422,3104,G9,G6,0
+I,J,72125240,Spinach souffle,Spinach souffle,2502,3104,G7,G6,0
+I,J,72125260,Spinach and cheese casserole,Spinach and cheese casserole,6422,3104,G9,G6,0
+I,J,72125310,Palak Paneer,Palak Paneer,6422,3104,G9,G6,0
+I,J,72125500,Channa Saag,Channa Saag,6422,3104,G9,G6,0
+I,J,72202010,Broccoli casserole with noodles,Broccoli casserole with noodles,6422,3104,G9,G6,0
+I,J,72202020,Broccoli casserole with rice,Broccoli casserole with rice,6422,3104,G9,G6,0
+I,J,73211110,"Sweet potato and pumpkin casserole, Puerto Rican style","Sweet potato and pumpkin casserole, Puerto Rican style",6422,3104,G9,G6,0
+I,J,73305020,"Squash, winter, souffle","Squash, winter, souffle",2502,3104,G7,G6,0
+I,J,74203010,"Tomatoes, NS as to form, scalloped","Tomatoes, scalloped",6422,3104,G9,G6,0
+I,J,75144100,"Lettuce, wilted, with bacon dressing","Lettuce, wilted, with bacon dressing",6422,3104,G9,G6,0
+I,J,75145000,"Seven-layer salad, lettuce salad made with a combination of onion, celery, green pepper, peas, mayonnaise, cheese, eggs, and/or bacon","Seven-layer salad, lettuce salad made with a combination of onion, celery, green pepper, peas, mayonnaise, cheese, eggs, and/or bacon",6422,3104,G9,G6,0
+I,J,75146000,"Greek Salad, no dressing","Greek Salad, no dressing",6422,3104,G9,G6,0
+I,J,75147000,"Spinach salad, no dressing","Spinach salad, no dressing",6422,3104,G9,G6,0
+I,J,75148010,"Cobb salad, no dressing","Cobb salad, no dressing",6422,3104,G9,G6,0
+I,J,75316050,Ratatouille,Ratatouille,6422,3104,G9,G6,0
+I,J,75400500,"Artichokes, stuffed","Artichokes, stuffed",6422,3104,G9,G6,0
+I,J,75403020,"Beans, string, green, cooked, NS as to form, with mushroom sauce",Green bean casserole,6422,3104,G9,G6,0
+I,J,75411010,"Corn, scalloped or pudding","Corn, scalloped or pudding",6422,3104,G9,G6,0
+I,J,75412060,"Eggplant parmesan casserole, regular","Eggplant parmesan casserole, regular",6422,3104,G9,G6,0
+I,J,75412070,Eggplant with cheese and tomato sauce,Eggplant with cheese and tomato sauce,6422,3104,G9,G6,0
+I,J,75414020,"Mushrooms, stuffed","Mushrooms, stuffed",6422,3104,G9,G6,0
+I,J,75418020,"Squash, summer, casserole with tomato and cheese","Squash, summer, casserole with tomato and cheese",6422,3104,G9,G6,0
+I,J,75418030,"Squash, summer, casserole, with rice and tomato sauce","Squash, summer, casserole, with rice and tomato sauce",6422,3104,G9,G6,0
+I,J,75418040,"Squash, summer, casserole, with cheese sauce","Squash, summer, casserole, with cheese sauce",6422,3104,G9,G6,0
+I,J,75418060,"Squash, summer, souffle","Squash, summer, souffle",2502,3104,G7,G6,0
+I,J,75418220,"Creamed christophine, Puerto Rican style","Creamed christophine, Puerto Rican style",6422,3104,G9,G6,0
+I,J,75439010,Vegetable stew without meat,Vegetable stew without meat,6422,3104,G9,G6,0
+I,J,75440600,Vegetable curry,Vegetable curry,6422,3104,G9,G6,0
+J,L,41420380,"Yogurt, soy","Yogurt, soy",2806,1904,G7,G5,0
+J,L,41901020,"Soyburger, meatless, with cheese on bun","Veggie burger, on bun, with cheese",2806,3744,G7,G6,0
+J,L,58123120,"Sweet bread dough, filled with bean paste, meatless, steamed","Bao bun, no meat",5506,3406,G3,G6,1
+J,L,58174100,"Dosa (Indian), with filling","Dosa, with filling",3208,4404,G6,G8,0
+J,L,75411020,Corn fritter,"Fritter, corn",6430,4402,G9,G8,0

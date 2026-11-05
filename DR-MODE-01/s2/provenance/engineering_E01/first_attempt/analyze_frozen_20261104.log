@@ -1,0 +1,6 @@
+          used (Mb) gc trigger  (Mb) limit (Mb)  max used  (Mb)
+Ncells 1823866 97.5    2942982 157.2         NA   2942982 157.2
+Vcells 9071838 69.3  103631264 790.7     131072 123336411 941.0
+G1 PASS: exact reproduction; start food aggregation
+Error in fit$coefficients["is_L", ] : incorrect number of dimensions
+Execution halted

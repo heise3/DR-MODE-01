@@ -1,0 +1,18 @@
+{
+  "sample_n": 20875,
+  "n_by_cycle": {
+    "G": 4296,
+    "H": 4443,
+    "I": 4105,
+    "J": 3990,
+    "L": 4041
+  },
+  "base_design_df": 77,
+  "weight_divisor": 5,
+  "bootstrap_replicates": 200,
+  "bootstrap_matrix_sha256": "518b30594e358aceede55b73b61d834259be2af9a4fe9b8c52eca519516a03b3",
+  "bootstrap_scale": 0.0050251256281407036,
+  "bootstrap_new_draws": 0,
+  "covariates": "weekend1 + weekend2 + interval + language1 + language2 + proxy1 + proxy2 + age_group + RIAGENDR",
+  "template_calls": ["svyglm(formula = as.formula(paste(y, \"~\", rhs)), design = des,      na.action = na.omit)", "svyglm(formula = as.formula(paste(y, \"~\", rhs)), design = des,      na.action = na.omit)"]
+}

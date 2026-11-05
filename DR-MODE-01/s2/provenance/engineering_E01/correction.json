@@ -1,0 +1,64 @@
+{
+  "correction": "E01",
+  "layer": "ENGINEERING",
+  "recorded_utc": "2026-11-04T10:59:41.004108+00:00",
+  "freeze_commit": "7f6e1f2cef106e202c0e25494dc8c1ac63314da3",
+  "frozen_source_sha256": "0ddf00d11c1d3e831012f59094f7f533fd50c4cff289f71c6867cd3fe7a227e6",
+  "runtime_sha256": "ac414626ee17f62d4be28626a42874e6992111b5ce964874e26e894a2d7ebedd",
+  "failure": "incorrect number of dimensions: lm.wfit coefficient return for a single response is a vector",
+  "old_expression": "be<-fit$coefficients['is_L',];repvals[r,ids,ref]<-be",
+  "new_expression": "be<-if(is.matrix(fit$coefficients))fit$coefficients['is_L',]else fit$coefficients['is_L'];repvals[r,ids,ref]<-be",
+  "analytic_definitions_changed": false,
+  "frozen_source_modified": false,
+  "G1_and_pretrend_calibration_first_attempt": "PASS; preserved",
+  "first_attempt_files": [
+    {
+      "name": "component_cycle_means.csv",
+      "sha256": "039f36afac022d3324b50b9e4155c19f4c47523e0f5091ce79f169dc018a87da"
+    },
+    {
+      "name": "B1_nutrient_pretrend.csv",
+      "sha256": "d0642af1ae451ddddf6cd63ca168d68ca3e08291e6cf9bc9468ad1d45497701b"
+    },
+    {
+      "name": "Taylor_estimates_all.csv",
+      "sha256": "e86e6604be3a5ec3687bbe76269f2e6f6faa0692e21f84fbb89db4fa95b3e11f"
+    },
+    {
+      "name": "G1_pretrend_calibration.csv",
+      "sha256": "f4db7b9303688dbd7ddf835c2e5eb6c624efc24d359ef817465d61e072bd6a92"
+    },
+    {
+      "name": "A1_zero_counts.csv",
+      "sha256": "5fbd83db72fff4eadf22fab5827cf878fb95aa46e42ff727c37e9b2760bf0264"
+    },
+    {
+      "name": "unit_multiplier_calibration.csv",
+      "sha256": "b5b66d83be14ddee095c5f839b680f595822f07f6d0cda9dffe177e67443d433"
+    },
+    {
+      "name": "unknown_occasion_time_counts.csv",
+      "sha256": "ce63fd44699a17a0b640246b93944a0bfafe338c0ea15935726ef7157f0835b5"
+    },
+    {
+      "name": "G1_reproduction.csv",
+      "sha256": "56c5e74913de598838a72a8bfd8d5f425af9ced3f24260d3296fd94858341faf"
+    },
+    {
+      "name": "component_pretrend.csv",
+      "sha256": "23250d40e1cd408e1e5cbf1d4e354e7bcd8ac2ad20c2cc85ec39f270f5110d07"
+    },
+    {
+      "name": "G1_repro.json",
+      "sha256": "4a90fa4665fdf07f141fb77c084b4f58e77fbfa9527001821d7c8a084600e053"
+    },
+    {
+      "name": "analysis_status.json",
+      "sha256": "7b98e1b5f98610a43fe9e6e1a13c0ec6dba24e8f79704ae52bbb6a213882648e"
+    },
+    {
+      "name": "analyze_frozen_20261104.log",
+      "sha256": "7035c7c2387d54f94b2de881cfd522b0081deeeb1798154e22ec5b3baec5d815"
+    }
+  ]
+}

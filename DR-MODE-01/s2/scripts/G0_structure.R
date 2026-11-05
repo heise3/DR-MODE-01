@@ -1,0 +1,31 @@
+suppressPackageStartupMessages({library(haven);library(jsonlite)})
+out<-'DR-MODE-01/s2';rows<-list();schema<-list();labels<-list()
+for(cy in c('G','H','I','J','L')) for(day in 1:2) {
+ dr<-paste0('DR',day);tag<-paste(cy,day,sep='_')
+ q<-as.data.frame(read_xpt(sprintf('DR-MODE-01/X1/data/%sIFF_%s.xpt',dr,cy)))
+ tt<-as.data.frame(read_xpt(sprintf('outputs/DR-MODE-01/A_access/data/%sTOT_%s.xpt',dr,cy)))
+ core<-paste0(dr,c('ILINE','IFDCD','IGRMS','IKCAL','_030Z'));tm<-intersect(paste0(dr,c('I_020','_020')),names(q))
+ present<-all(c('SEQN',core)%in%names(q))&&length(tm)==1
+ schema[[tag]]<-list(cycle=cy,day=day,core_present=present,time_variable=tm,missing_variables=setdiff(c('SEQN',core),names(q)),rows=nrow(q),persons=length(unique(q$SEQN)))
+ if(!present)next
+ ll<-attr(q[[paste0(dr,'_030Z')]],'labels')
+ if(length(ll))labels[[tag]]<-data.frame(cycle=cy,day=day,code=unname(ll),label=names(ll))
+ agg<-rowsum(cbind(kcal=q[[paste0(dr,'IKCAL')]],n=as.numeric(!is.na(q[[paste0(dr,'ILINE')]]))),q$SEQN,na.rm=FALSE)
+ a<-agg[match(tt$SEQN,as.numeric(rownames(agg))),,drop=FALSE]
+ rel<-!is.na(tt[[paste0(dr,'DRSTZ')]])&tt[[paste0(dr,'DRSTZ')]]==1
+ zer<-rel&tt[[paste0(dr,'TNUMF')]]==0&is.na(a[,'n']);a[zer,]<-0
+ delta<-a[,'kcal']-tt[[paste0(dr,'TKCAL')]]
+ nc<-a[,'n']-tt[[paste0(dr,'TNUMF')]]
+ rows[[tag]]<-data.frame(cycle=cy,day=day,reliable_persons=sum(rel),iff_rows=nrow(q),iff_persons=nrow(agg),
+   energy_within_1kcal=sum(rel&!is.na(delta)&abs(delta)<=1),energy_match_proportion=sum(rel&!is.na(delta)&abs(delta)<=1)/sum(rel),
+   energy_missing_persons=sum(rel&is.na(delta)),max_abs_energy_difference=max(abs(delta[rel]),na.rm=TRUE),
+   count_exact_persons=sum(rel&!is.na(nc)&nc==0),count_match_proportion=sum(rel&!is.na(nc)&nc==0)/sum(rel),
+   count_mismatch_persons=sum(rel&(is.na(nc)|nc!=0)),duplicate_food_keys=sum(duplicated(q[,c('SEQN',paste0(dr,'ILINE'))])),
+   observed_occasion_codes=paste(sort(unique(q[[paste0(dr,'_030Z')]])),collapse=';'),
+   G0_1=if(present)'PASS'else'STOP_DATA',G0_2=if(mean(abs(delta[rel])<=1,na.rm=FALSE)>=.995)'PASS'else'STOP_DATA',
+   G0_3=if(all(!is.na(nc[rel])&nc[rel]==0))'PASS'else'STOP_DATA')
+}
+write_json(schema,file.path(out,'metadata/variable_schema.json'),pretty=TRUE,auto_unbox=TRUE,na='null')
+write.csv(do.call(rbind,rows),file.path(out,'metadata/G0_1_3_structure.csv'),row.names=FALSE,na='')
+if(length(labels)&&sum(vapply(labels,nrow,integer(1)))>0)write.csv(do.call(rbind,labels),file.path(out,'metadata/occasion_xpt_labels.csv'),row.names=FALSE)
+print(do.call(rbind,rows)[,c('cycle','day','reliable_persons','energy_match_proportion','count_match_proportion','G0_1','G0_2','G0_3')],row.names=FALSE)

@@ -1,0 +1,5 @@
+from_cycle,to_cycle,changed_group_codes,crosses_H_omit_codes,author_reported_changed,author_reported_crossing,match_author_counts
+G,H,2,2,2,2,True
+H,I,0,0,0,0,True
+I,J,47,1,47,1,True
+J,L,5,1,5,1,True

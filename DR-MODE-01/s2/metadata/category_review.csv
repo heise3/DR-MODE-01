@@ -1,0 +1,800 @@
+cycle,FNDDS_version,wweia_category,category_description,official_major_heading,analysis_group,group_label,H_omit,mapping_reason
+G,2011-2012,9602,Human milk,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+G,2011-2012,1004,"Milk, reduced fat",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+G,2011-2012,1002,"Milk, whole",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+G,2011-2012,1006,"Milk, lowfat",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+G,2011-2012,1008,"Milk, nonfat",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+G,2011-2012,1202,"Flavored milk, whole",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+G,2011-2012,1404,Milk substitutes,MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+G,2011-2012,1804,"Yogurt, lowfat and nonfat",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+G,2011-2012,1802,"Yogurt, whole and reduced fat",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+G,2011-2012,5802,Ice cream and frozen dairy desserts,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+G,2011-2012,9010,Baby food: yogurt,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+G,2011-2012,1204,"Flavored milk, reduced fat",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+G,2011-2012,1208,"Flavored milk, nonfat",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+G,2011-2012,1206,"Flavored milk, lowfat",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+G,2011-2012,1402,Milk shakes and other dairy drinks,MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+G,2011-2012,7204,Fruit drinks,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+G,2011-2012,7302,Coffee,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+G,2011-2012,9402,"Formula, ready-to-feed",BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+G,2011-2012,9404,"Formula, prepared from powder",BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+G,2011-2012,9406,"Formula, prepared from concentrate",BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+G,2011-2012,9999,Not included in a food category,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+G,2011-2012,8008,Cream and cream substitutes,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+G,2011-2012,8006,"Cream cheese, sour cream, whipped cream",FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+G,2011-2012,8412,"Dips, gravies, other sauces",FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+G,2011-2012,5804,Pudding,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+G,2011-2012,5502,Cakes and pies,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+G,2011-2012,9012,Baby food: snacks and sweets,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+G,2011-2012,1602,Cheese,MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+G,2011-2012,1604,Cottage/ricotta cheese,MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+G,2011-2012,3602,Pizza,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+G,2011-2012,2502,Eggs and omelets,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+G,2011-2012,3708,Other sandwiches (single code),MIXED DISHES,G6,Mixed dishes,0,Official major heading
+G,2011-2012,6422,Vegetable mixed dishes,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+G,2011-2012,3802,Soups,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+G,2011-2012,2002,"Beef, excludes ground",PROTEIN FOODS,G7,Protein foods,0,Official major heading
+G,2011-2012,9008,Baby food: meat and dinners,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+G,2011-2012,2004,Ground beef,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+G,2011-2012,2602,Cold cuts and cured meats,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+G,2011-2012,2604,Bacon,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+G,2011-2012,2006,Pork,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+G,2011-2012,8002,Butter and animal fats,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+G,2011-2012,2008,"Lamb, goat, game",PROTEIN FOODS,G7,Protein foods,0,Official major heading
+G,2011-2012,2206,"Turkey, duck, other poultry",PROTEIN FOODS,G7,Protein foods,0,Official major heading
+G,2011-2012,2202,"Chicken, whole pieces",PROTEIN FOODS,G7,Protein foods,0,Official major heading
+G,2011-2012,2204,"Chicken patties, nuggets and tenders",PROTEIN FOODS,G7,Protein foods,0,Official major heading
+G,2011-2012,2010,Liver and organ meats,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+G,2011-2012,2606,Frankfurters,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+G,2011-2012,2608,Sausages,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+G,2011-2012,2402,Fish,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+G,2011-2012,2404,Shellfish,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+G,2011-2012,3002,Meat mixed dishes,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+G,2011-2012,8410,"Pasta sauces, tomato-based",FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+G,2011-2012,3404,Stir-fry and soy-based sauce mixtures,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+G,2011-2012,3004,Poultry mixed dishes,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+G,2011-2012,3006,Seafood mixed dishes,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+G,2011-2012,3202,Rice mixed dishes,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+G,2011-2012,3402,Fried rice and lo/chow mein,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+G,2011-2012,3502,Burritos and tacos,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+G,2011-2012,3702,Burgers (single code),MIXED DISHES,G6,Mixed dishes,0,Official major heading
+G,2011-2012,3704,Chicken/turkey sandwiches (single code),MIXED DISHES,G6,Mixed dishes,0,Official major heading
+G,2011-2012,3706,Egg/breakfast sandwiches (single code),MIXED DISHES,G6,Mixed dishes,0,Official major heading
+G,2011-2012,3703,Frankfurter sandwiches (single code),MIXED DISHES,G6,Mixed dishes,0,Official major heading
+G,2011-2012,2802,"Beans, peas, legumes",PROTEIN FOODS,G7,Protein foods,0,Official major heading
+G,2011-2012,5004,"Tortilla, corn, other chips",SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+G,2011-2012,2806,Processed soy products,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+G,2011-2012,8404,Soy-based condiments,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+G,2011-2012,8406,Mustard and other condiments,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+G,2011-2012,4004,"Pasta, noodles, cooked grains",GRAINS,G8,Grains,0,Official major heading
+G,2011-2012,2804,Nuts and seeds,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+G,2011-2012,5704,Candy not containing chocolate,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+G,2011-2012,8806,"Jams, syrups, toppings",FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+G,2011-2012,4202,Yeast breads,GRAINS,G8,Grains,0,Official major heading
+G,2011-2012,4204,Rolls and buns,GRAINS,G8,Grains,0,Official major heading
+G,2011-2012,5506,"Doughnuts, sweet rolls, pastries",SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+G,2011-2012,4206,Bagels and English muffins,GRAINS,G8,Grains,0,Official major heading
+G,2011-2012,3208,Turnovers and other grain-based items,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+G,2011-2012,5202,"Crackers, excludes saltines",SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+G,2011-2012,5504,Cookies and brownies,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+G,2011-2012,4402,"Biscuits, muffins, quick breads",GRAINS,G8,Grains,0,Official major heading
+G,2011-2012,4208,Tortillas,GRAINS,G8,Grains,0,Official major heading
+G,2011-2012,4404,"Pancakes, waffles, French toast",GRAINS,G8,Grains,0,Official major heading
+G,2011-2012,5402,Cereal bars,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+G,2011-2012,5404,Nutrition bars,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+G,2011-2012,5204,Saltine crackers,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+G,2011-2012,5008,Pretzels/snack mix,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+G,2011-2012,5002,Potato chips,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+G,2011-2012,5006,Popcorn,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+G,2011-2012,4804,Grits and other cooked cereals,GRAINS,G8,Grains,0,Official major heading
+G,2011-2012,4802,Oatmeal,GRAINS,G8,Grains,0,Official major heading
+G,2011-2012,4002,Rice,GRAINS,G8,Grains,0,Official major heading
+G,2011-2012,9002,Baby food: cereals,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+G,2011-2012,4604,"Ready-to-eat cereal, lower sugar (=<21.2g/100g)",GRAINS,G8,Grains,0,Official major heading
+G,2011-2012,4602,"Ready-to-eat cereal, higher sugar (>21.2g/100g)",GRAINS,G8,Grains,0,Official major heading
+G,2011-2012,3506,Other Mexican mixed dishes,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+G,2011-2012,3504,Nachos,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+G,2011-2012,3406,"Egg rolls, dumplings, sushi",MIXED DISHES,G6,Mixed dishes,0,Official major heading
+G,2011-2012,3204,"Pasta mixed dishes, excludes macaroni and cheese",MIXED DISHES,G6,Mixed dishes,0,Official major heading
+G,2011-2012,3206,Macaroni and cheese,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+G,2011-2012,6012,Citrus fruits,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+G,2011-2012,7002,Citrus juice,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+G,2011-2012,7006,Other fruit juice,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+G,2011-2012,6016,Dried fruits,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+G,2011-2012,6018,Other fruits and fruit salads,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+G,2011-2012,6002,Apples,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+G,2011-2012,6420,Other vegetables and combinations,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+G,2011-2012,6004,Bananas,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+G,2011-2012,6014,Melons,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+G,2011-2012,6010,Berries,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+G,2011-2012,6006,Grapes,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+G,2011-2012,6008,Peaches and nectarines,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+G,2011-2012,5806,"Gelatins, ices, sorbets",SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+G,2011-2012,7004,Apple juice,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+G,2011-2012,9004,Baby food: fruit,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+G,2011-2012,9202,Baby juice,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+G,2011-2012,6802,"White potatoes, baked or boiled",FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+G,2011-2012,6806,Mashed potatoes and white potato mixtures,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+G,2011-2012,6804,French fries and other fried white potatoes,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+G,2011-2012,6418,Other starchy vegetables,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+G,2011-2012,8408,"Olives, pickles, pickled vegetables",FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+G,2011-2012,6408,"Dark green vegetables, excludes lettuce",FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+G,2011-2012,6410,Lettuce and lettuce salads,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+G,2011-2012,6404,Carrots,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+G,2011-2012,7008,Vegetable juice,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+G,2011-2012,6406,Other red and orange vegetables,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+G,2011-2012,6402,Tomatoes,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+G,2011-2012,8402,Tomato-based condiments,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+G,2011-2012,6412,String beans,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+G,2011-2012,6416,Corn,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+G,2011-2012,6414,Onions,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+G,2011-2012,9006,Baby food: vegetable,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+G,2011-2012,8004,Margarine,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+G,2011-2012,8010,Mayonnaise,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+G,2011-2012,8012,Salad dressings and vegetable oils,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+G,2011-2012,8802,Sugars and honey,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+G,2011-2012,8804,Sugar substitutes,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+G,2011-2012,5702,Candy containing chocolate,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+G,2011-2012,7304,Tea,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+G,2011-2012,7202,Soft drinks,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+G,2011-2012,7102,Diet soft drinks,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+G,2011-2012,7802,Flavored or carbonated water,WATER: Flavored or Enhanced Water,G1,Non-alcoholic beverages,1,Included among non-alcoholic beverages; only plain water excluded
+G,2011-2012,7106,Other diet drinks,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+G,2011-2012,7502,Beer,ALCOHOLIC BEVERAGES,G2,Alcoholic beverages,1,Official major heading
+G,2011-2012,7506,Liquor and cocktails,ALCOHOLIC BEVERAGES,G2,Alcoholic beverages,1,Official major heading
+G,2011-2012,7504,Wine,ALCOHOLIC BEVERAGES,G2,Alcoholic beverages,1,Official major heading
+G,2011-2012,7702,Tap water,WATER: Plain Water,G10,Other,0,Plain water assigned to Other as requested
+G,2011-2012,7704,Bottled water,WATER: Plain Water,G10,Other,0,Plain water assigned to Other as requested
+G,2011-2012,7804,Enhanced or fortified water,WATER: Flavored or Enhanced Water,G1,Non-alcoholic beverages,1,Included among non-alcoholic beverages; only plain water excluded
+G,2011-2012,9204,Baby water,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+G,2011-2012,7208,Nutritional beverages,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+G,2011-2012,9802,Protein and nutritional powders,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+G,2011-2012,7206,Sport and energy drinks,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+G,2011-2012,7104,Diet sport and energy drinks,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+H,2013-2014,9602,Human milk,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+H,2013-2014,1004,"Milk, reduced fat",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+H,2013-2014,1002,"Milk, whole",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+H,2013-2014,1006,"Milk, lowfat",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+H,2013-2014,1008,"Milk, nonfat",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+H,2013-2014,1202,"Flavored milk, whole",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+H,2013-2014,1404,Milk substitutes,MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+H,2013-2014,1820,"Yogurt, regular",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+H,2013-2014,1822,"Yogurt, Greek",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+H,2013-2014,5802,Ice cream and frozen dairy desserts,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+H,2013-2014,9010,Baby food: yogurt,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+H,2013-2014,1208,"Flavored milk, nonfat",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+H,2013-2014,1204,"Flavored milk, reduced fat",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+H,2013-2014,1206,"Flavored milk, lowfat",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+H,2013-2014,1402,Milk shakes and other dairy drinks,MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+H,2013-2014,7220,Smoothies and grain drinks,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+H,2013-2014,9402,"Formula, ready-to-feed",BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+H,2013-2014,9404,"Formula, prepared from powder",BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+H,2013-2014,9406,"Formula, prepared from concentrate",BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+H,2013-2014,9999,Not included in a food category,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+H,2013-2014,8008,Cream and cream substitutes,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+H,2013-2014,8006,"Cream cheese, sour cream, whipped cream",FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+H,2013-2014,8412,"Dips, gravies, other sauces",FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+H,2013-2014,5804,Pudding,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+H,2013-2014,5502,Cakes and pies,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+H,2013-2014,9012,Baby food: snacks and sweets,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+H,2013-2014,1602,Cheese,MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+H,2013-2014,1604,Cottage/ricotta cheese,MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+H,2013-2014,3602,Pizza,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+H,2013-2014,2502,Eggs and omelets,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+H,2013-2014,3708,Other sandwiches (single code),MIXED DISHES,G6,Mixed dishes,0,Official major heading
+H,2013-2014,6422,Vegetable mixed dishes,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+H,2013-2014,3802,Soups,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+H,2013-2014,2002,"Beef, excludes ground",PROTEIN FOODS,G7,Protein foods,0,Official major heading
+H,2013-2014,9008,Baby food: meat and dinners,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+H,2013-2014,2004,Ground beef,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+H,2013-2014,2602,Cold cuts and cured meats,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+H,2013-2014,2604,Bacon,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+H,2013-2014,2006,Pork,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+H,2013-2014,8002,Butter and animal fats,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+H,2013-2014,2008,"Lamb, goat, game",PROTEIN FOODS,G7,Protein foods,0,Official major heading
+H,2013-2014,2206,"Turkey, duck, other poultry",PROTEIN FOODS,G7,Protein foods,0,Official major heading
+H,2013-2014,2202,"Chicken, whole pieces",PROTEIN FOODS,G7,Protein foods,0,Official major heading
+H,2013-2014,2204,"Chicken patties, nuggets and tenders",PROTEIN FOODS,G7,Protein foods,0,Official major heading
+H,2013-2014,2010,Liver and organ meats,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+H,2013-2014,2606,Frankfurters,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+H,2013-2014,2608,Sausages,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+H,2013-2014,2402,Fish,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+H,2013-2014,2404,Shellfish,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+H,2013-2014,3002,Meat mixed dishes,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+H,2013-2014,8410,"Pasta sauces, tomato-based",FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+H,2013-2014,3404,Stir-fry and soy-based sauce mixtures,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+H,2013-2014,3004,Poultry mixed dishes,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+H,2013-2014,3006,Seafood mixed dishes,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+H,2013-2014,3202,Rice mixed dishes,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+H,2013-2014,3402,Fried rice and lo/chow mein,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+H,2013-2014,3502,Burritos and tacos,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+H,2013-2014,3702,Burgers (single code),MIXED DISHES,G6,Mixed dishes,0,Official major heading
+H,2013-2014,3704,Chicken/turkey sandwiches (single code),MIXED DISHES,G6,Mixed dishes,0,Official major heading
+H,2013-2014,3706,Egg/breakfast sandwiches (single code),MIXED DISHES,G6,Mixed dishes,0,Official major heading
+H,2013-2014,3703,Frankfurter sandwiches (single code),MIXED DISHES,G6,Mixed dishes,0,Official major heading
+H,2013-2014,2802,"Beans, peas, legumes",PROTEIN FOODS,G7,Protein foods,0,Official major heading
+H,2013-2014,5004,"Tortilla, corn, other chips",SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+H,2013-2014,2806,Processed soy products,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+H,2013-2014,8404,Soy-based condiments,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+H,2013-2014,8406,Mustard and other condiments,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+H,2013-2014,4004,"Pasta, noodles, cooked grains",GRAINS,G8,Grains,0,Official major heading
+H,2013-2014,2804,Nuts and seeds,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+H,2013-2014,7204,Fruit drinks,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+H,2013-2014,5704,Candy not containing chocolate,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+H,2013-2014,4202,Yeast breads,GRAINS,G8,Grains,0,Official major heading
+H,2013-2014,4204,Rolls and buns,GRAINS,G8,Grains,0,Official major heading
+H,2013-2014,5506,"Doughnuts, sweet rolls, pastries",SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+H,2013-2014,4206,Bagels and English muffins,GRAINS,G8,Grains,0,Official major heading
+H,2013-2014,3208,Turnovers and other grain-based items,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+H,2013-2014,5202,"Crackers, excludes saltines",SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+H,2013-2014,5504,Cookies and brownies,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+H,2013-2014,4402,"Biscuits, muffins, quick breads",GRAINS,G8,Grains,0,Official major heading
+H,2013-2014,4208,Tortillas,GRAINS,G8,Grains,0,Official major heading
+H,2013-2014,4404,"Pancakes, waffles, French toast",GRAINS,G8,Grains,0,Official major heading
+H,2013-2014,5402,Cereal bars,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+H,2013-2014,5404,Nutrition bars,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+H,2013-2014,5204,Saltine crackers,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+H,2013-2014,5008,Pretzels/snack mix,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+H,2013-2014,5002,Potato chips,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+H,2013-2014,5006,Popcorn,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+H,2013-2014,4804,Grits and other cooked cereals,GRAINS,G8,Grains,0,Official major heading
+H,2013-2014,4802,Oatmeal,GRAINS,G8,Grains,0,Official major heading
+H,2013-2014,4002,Rice,GRAINS,G8,Grains,0,Official major heading
+H,2013-2014,9002,Baby food: cereals,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+H,2013-2014,4604,"Ready-to-eat cereal, lower sugar (=<21.2g/100g)",GRAINS,G8,Grains,0,Official major heading
+H,2013-2014,4602,"Ready-to-eat cereal, higher sugar (>21.2g/100g)",GRAINS,G8,Grains,0,Official major heading
+H,2013-2014,3506,Other Mexican mixed dishes,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+H,2013-2014,3504,Nachos,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+H,2013-2014,3406,"Egg rolls, dumplings, sushi",MIXED DISHES,G6,Mixed dishes,0,Official major heading
+H,2013-2014,3204,"Pasta mixed dishes, excludes macaroni and cheese",MIXED DISHES,G6,Mixed dishes,0,Official major heading
+H,2013-2014,3206,Macaroni and cheese,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+H,2013-2014,6012,Citrus fruits,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+H,2013-2014,8806,"Jams, syrups, toppings",FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+H,2013-2014,7002,Citrus juice,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+H,2013-2014,7006,Other fruit juice,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+H,2013-2014,6016,Dried fruits,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+H,2013-2014,6018,Other fruits and fruit salads,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+H,2013-2014,6002,Apples,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+H,2013-2014,6420,Other vegetables and combinations,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+H,2013-2014,6004,Bananas,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+H,2013-2014,6014,Melons,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+H,2013-2014,6010,Berries,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+H,2013-2014,6006,Grapes,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+H,2013-2014,6008,Peaches and nectarines,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+H,2013-2014,5806,"Gelatins, ices, sorbets",SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+H,2013-2014,7004,Apple juice,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+H,2013-2014,9004,Baby food: fruit,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+H,2013-2014,9202,Baby juice,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+H,2013-2014,6802,"White potatoes, baked or boiled",FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+H,2013-2014,6806,Mashed potatoes and white potato mixtures,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+H,2013-2014,6804,French fries and other fried white potatoes,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+H,2013-2014,6418,Other starchy vegetables,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+H,2013-2014,8408,"Olives, pickles, pickled vegetables",FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+H,2013-2014,6408,"Dark green vegetables, excludes lettuce",FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+H,2013-2014,6410,Lettuce and lettuce salads,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+H,2013-2014,6404,Carrots,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+H,2013-2014,7008,Vegetable juice,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+H,2013-2014,6406,Other red and orange vegetables,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+H,2013-2014,6402,Tomatoes,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+H,2013-2014,8402,Tomato-based condiments,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+H,2013-2014,6412,String beans,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+H,2013-2014,6416,Corn,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+H,2013-2014,6414,Onions,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+H,2013-2014,9006,Baby food: vegetable,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+H,2013-2014,8004,Margarine,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+H,2013-2014,8010,Mayonnaise,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+H,2013-2014,8012,Salad dressings and vegetable oils,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+H,2013-2014,8802,Sugars and honey,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+H,2013-2014,8804,Sugar substitutes,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+H,2013-2014,5702,Candy containing chocolate,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+H,2013-2014,7302,Coffee,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+H,2013-2014,7304,Tea,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+H,2013-2014,7202,Soft drinks,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+H,2013-2014,7102,Diet soft drinks,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+H,2013-2014,7802,Flavored or carbonated water,WATER: Flavored or Enhanced Water,G1,Non-alcoholic beverages,1,Included among non-alcoholic beverages; only plain water excluded
+H,2013-2014,7106,Other diet drinks,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+H,2013-2014,7502,Beer,ALCOHOLIC BEVERAGES,G2,Alcoholic beverages,1,Official major heading
+H,2013-2014,7506,Liquor and cocktails,ALCOHOLIC BEVERAGES,G2,Alcoholic beverages,1,Official major heading
+H,2013-2014,7504,Wine,ALCOHOLIC BEVERAGES,G2,Alcoholic beverages,1,Official major heading
+H,2013-2014,7702,Tap water,WATER: Plain Water,G10,Other,0,Plain water assigned to Other as requested
+H,2013-2014,7704,Bottled water,WATER: Plain Water,G10,Other,0,Plain water assigned to Other as requested
+H,2013-2014,7804,Enhanced or fortified water,WATER: Flavored or Enhanced Water,G1,Non-alcoholic beverages,1,Included among non-alcoholic beverages; only plain water excluded
+H,2013-2014,9204,Baby water,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+H,2013-2014,7208,Nutritional beverages,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+H,2013-2014,9802,Protein and nutritional powders,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+H,2013-2014,7206,Sport and energy drinks,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+H,2013-2014,7104,Diet sport and energy drinks,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+I,2015-2016,9602,Human milk,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+I,2015-2016,1004,"Milk, reduced fat",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+I,2015-2016,1002,"Milk, whole",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+I,2015-2016,1006,"Milk, lowfat",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+I,2015-2016,1008,"Milk, nonfat",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+I,2015-2016,1202,"Flavored milk, whole",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+I,2015-2016,1404,Milk substitutes,MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+I,2015-2016,1820,"Yogurt, regular",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+I,2015-2016,1822,"Yogurt, Greek",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+I,2015-2016,8412,"Dips, gravies, other sauces",FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+I,2015-2016,5802,Ice cream and frozen dairy desserts,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+I,2015-2016,9010,Baby food: yogurt,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+I,2015-2016,1208,"Flavored milk, nonfat",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+I,2015-2016,1204,"Flavored milk, reduced fat",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+I,2015-2016,1206,"Flavored milk, lowfat",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+I,2015-2016,1402,Milk shakes and other dairy drinks,MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+I,2015-2016,7220,Smoothies and grain drinks,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+I,2015-2016,9402,"Formula, ready-to-feed",BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+I,2015-2016,9404,"Formula, prepared from powder",BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+I,2015-2016,9406,"Formula, prepared from concentrate",BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+I,2015-2016,9999,Not included in a food category,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+I,2015-2016,8008,Cream and cream substitutes,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+I,2015-2016,8006,"Cream cheese, sour cream, whipped cream",FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+I,2015-2016,5804,Pudding,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+I,2015-2016,5502,Cakes and pies,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+I,2015-2016,9012,Baby food: snacks and sweets,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+I,2015-2016,1602,Cheese,MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+I,2015-2016,1604,Cottage/ricotta cheese,MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+I,2015-2016,3602,Pizza,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+I,2015-2016,2502,Eggs and omelets,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+I,2015-2016,3720,Cheese sandwiches (single code),MIXED DISHES,G6,Mixed dishes,0,Official major heading
+I,2015-2016,6422,Vegetable mixed dishes,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+I,2015-2016,3802,Soups,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+I,2015-2016,2002,"Beef, excludes ground",PROTEIN FOODS,G7,Protein foods,0,Official major heading
+I,2015-2016,9008,Baby food: meat and dinners,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+I,2015-2016,2004,Ground beef,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+I,2015-2016,2602,Cold cuts and cured meats,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+I,2015-2016,2604,Bacon,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+I,2015-2016,2006,Pork,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+I,2015-2016,8002,Butter and animal fats,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+I,2015-2016,2008,"Lamb, goat, game",PROTEIN FOODS,G7,Protein foods,0,Official major heading
+I,2015-2016,2206,"Turkey, duck, other poultry",PROTEIN FOODS,G7,Protein foods,0,Official major heading
+I,2015-2016,2202,"Chicken, whole pieces",PROTEIN FOODS,G7,Protein foods,0,Official major heading
+I,2015-2016,2204,"Chicken patties, nuggets and tenders",PROTEIN FOODS,G7,Protein foods,0,Official major heading
+I,2015-2016,3004,Poultry mixed dishes,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+I,2015-2016,2010,Liver and organ meats,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+I,2015-2016,2606,Frankfurters,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+I,2015-2016,2608,Sausages,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+I,2015-2016,2402,Fish,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+I,2015-2016,2404,Shellfish,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+I,2015-2016,3002,Meat mixed dishes,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+I,2015-2016,3404,Stir-fry and soy-based sauce mixtures,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+I,2015-2016,8410,"Pasta sauces, tomato-based",FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+I,2015-2016,3006,Seafood mixed dishes,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+I,2015-2016,3202,Rice mixed dishes,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+I,2015-2016,3402,Fried rice and lo/chow mein,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+I,2015-2016,3502,Burritos and tacos,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+I,2015-2016,3708,Other sandwiches (single code),MIXED DISHES,G6,Mixed dishes,0,Official major heading
+I,2015-2016,3702,Burgers (single code),MIXED DISHES,G6,Mixed dishes,0,Official major heading
+I,2015-2016,3704,Chicken/turkey sandwiches (single code),MIXED DISHES,G6,Mixed dishes,0,Official major heading
+I,2015-2016,3706,Egg/breakfast sandwiches (single code),MIXED DISHES,G6,Mixed dishes,0,Official major heading
+I,2015-2016,3703,Frankfurter sandwiches (single code),MIXED DISHES,G6,Mixed dishes,0,Official major heading
+I,2015-2016,2802,"Beans, peas, legumes",PROTEIN FOODS,G7,Protein foods,0,Official major heading
+I,2015-2016,5004,"Tortilla, corn, other chips",SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+I,2015-2016,2806,Processed soy products,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+I,2015-2016,8404,Soy-based condiments,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+I,2015-2016,8406,Mustard and other condiments,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+I,2015-2016,4004,"Pasta, noodles, cooked grains",GRAINS,G8,Grains,0,Official major heading
+I,2015-2016,2804,Nuts and seeds,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+I,2015-2016,3722,Peanut butter and jelly sanwiches (single code),MIXED DISHES,G6,Mixed dishes,0,Official major heading
+I,2015-2016,7204,Fruit drinks,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+I,2015-2016,5704,Candy not containing chocolate,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+I,2015-2016,4202,Yeast breads,GRAINS,G8,Grains,0,Official major heading
+I,2015-2016,4204,Rolls and buns,GRAINS,G8,Grains,0,Official major heading
+I,2015-2016,5506,"Doughnuts, sweet rolls, pastries",SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+I,2015-2016,4206,Bagels and English muffins,GRAINS,G8,Grains,0,Official major heading
+I,2015-2016,3208,Turnovers and other grain-based items,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+I,2015-2016,5202,"Crackers, excludes saltines",SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+I,2015-2016,5504,Cookies and brownies,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+I,2015-2016,4402,"Biscuits, muffins, quick breads",GRAINS,G8,Grains,0,Official major heading
+I,2015-2016,4208,Tortillas,GRAINS,G8,Grains,0,Official major heading
+I,2015-2016,4404,"Pancakes, waffles, French toast",GRAINS,G8,Grains,0,Official major heading
+I,2015-2016,5402,Cereal bars,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+I,2015-2016,5404,Nutrition bars,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+I,2015-2016,5204,Saltine crackers,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+I,2015-2016,5008,Pretzels/snack mix,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+I,2015-2016,5002,Potato chips,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+I,2015-2016,5006,Popcorn,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+I,2015-2016,4804,Grits and other cooked cereals,GRAINS,G8,Grains,0,Official major heading
+I,2015-2016,4802,Oatmeal,GRAINS,G8,Grains,0,Official major heading
+I,2015-2016,4002,Rice,GRAINS,G8,Grains,0,Official major heading
+I,2015-2016,9002,Baby food: cereals,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+I,2015-2016,4604,"Ready-to-eat cereal, lower sugar (=<21.2g/100g)",GRAINS,G8,Grains,0,Official major heading
+I,2015-2016,4602,"Ready-to-eat cereal, higher sugar (>21.2g/100g)",GRAINS,G8,Grains,0,Official major heading
+I,2015-2016,3506,Other Mexican mixed dishes,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+I,2015-2016,3504,Nachos,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+I,2015-2016,3406,"Egg rolls, dumplings, sushi",MIXED DISHES,G6,Mixed dishes,0,Official major heading
+I,2015-2016,3204,"Pasta mixed dishes, excludes macaroni and cheese",MIXED DISHES,G6,Mixed dishes,0,Official major heading
+I,2015-2016,3206,Macaroni and cheese,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+I,2015-2016,6012,Citrus fruits,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+I,2015-2016,8806,"Jams, syrups, toppings",FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+I,2015-2016,7002,Citrus juice,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+I,2015-2016,7006,Other fruit juice,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+I,2015-2016,6016,Dried fruits,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+I,2015-2016,6018,Other fruits and fruit salads,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+I,2015-2016,6002,Apples,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+I,2015-2016,6420,Other vegetables and combinations,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+I,2015-2016,6004,Bananas,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+I,2015-2016,6014,Melons,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+I,2015-2016,6010,Berries,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+I,2015-2016,6006,Grapes,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+I,2015-2016,6008,Peaches and nectarines,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+I,2015-2016,5806,"Gelatins, ices, sorbets",SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+I,2015-2016,7004,Apple juice,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+I,2015-2016,9004,Baby food: fruit,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+I,2015-2016,9202,Baby juice,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+I,2015-2016,6802,"White potatoes, baked or boiled",FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+I,2015-2016,6806,Mashed potatoes and white potato mixtures,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+I,2015-2016,6804,French fries and other fried white potatoes,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+I,2015-2016,6418,Other starchy vegetables,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+I,2015-2016,8408,"Olives, pickles, pickled vegetables",FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+I,2015-2016,6408,"Dark green vegetables, excludes lettuce",FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+I,2015-2016,6410,Lettuce and lettuce salads,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+I,2015-2016,6404,Carrots,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+I,2015-2016,7008,Vegetable juice,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+I,2015-2016,6406,Other red and orange vegetables,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+I,2015-2016,6402,Tomatoes,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+I,2015-2016,8402,Tomato-based condiments,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+I,2015-2016,6412,String beans,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+I,2015-2016,6416,Corn,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+I,2015-2016,6414,Onions,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+I,2015-2016,9006,Baby food: vegetable,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+I,2015-2016,8004,Margarine,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+I,2015-2016,8010,Mayonnaise,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+I,2015-2016,8012,Salad dressings and vegetable oils,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+I,2015-2016,8802,Sugars and honey,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+I,2015-2016,8804,Sugar substitutes,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+I,2015-2016,5702,Candy containing chocolate,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+I,2015-2016,7302,Coffee,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+I,2015-2016,7304,Tea,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+I,2015-2016,7202,Soft drinks,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+I,2015-2016,7102,Diet soft drinks,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+I,2015-2016,7802,Flavored or carbonated water,WATER: Flavored or Enhanced Water,G1,Non-alcoholic beverages,1,Included among non-alcoholic beverages; only plain water excluded
+I,2015-2016,7106,Other diet drinks,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+I,2015-2016,7502,Beer,ALCOHOLIC BEVERAGES,G2,Alcoholic beverages,1,Official major heading
+I,2015-2016,7506,Liquor and cocktails,ALCOHOLIC BEVERAGES,G2,Alcoholic beverages,1,Official major heading
+I,2015-2016,7504,Wine,ALCOHOLIC BEVERAGES,G2,Alcoholic beverages,1,Official major heading
+I,2015-2016,7702,Tap water,WATER: Plain Water,G10,Other,0,Plain water assigned to Other as requested
+I,2015-2016,7704,Bottled water,WATER: Plain Water,G10,Other,0,Plain water assigned to Other as requested
+I,2015-2016,7804,Enhanced or fortified water,WATER: Flavored or Enhanced Water,G1,Non-alcoholic beverages,1,Included among non-alcoholic beverages; only plain water excluded
+I,2015-2016,9204,Baby water,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+I,2015-2016,7208,Nutritional beverages,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+I,2015-2016,9802,Protein and nutritional powders,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+I,2015-2016,7206,Sport and energy drinks,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+I,2015-2016,7104,Diet sport and energy drinks,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+J,2017-2018,9602,Human milk,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+J,2017-2018,1004,"Milk, reduced fat",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+J,2017-2018,1002,"Milk, whole",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+J,2017-2018,1006,"Milk, lowfat",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+J,2017-2018,1008,"Milk, nonfat",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+J,2017-2018,1202,"Flavored milk, whole",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+J,2017-2018,1404,Milk substitutes,MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+J,2017-2018,1820,"Yogurt, regular",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+J,2017-2018,1822,"Yogurt, Greek",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+J,2017-2018,8412,"Dips, gravies, other sauces",FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+J,2017-2018,5802,Ice cream and frozen dairy desserts,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+J,2017-2018,9010,Baby food: yogurt,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+J,2017-2018,1208,"Flavored milk, nonfat",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+J,2017-2018,1204,"Flavored milk, reduced fat",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+J,2017-2018,1206,"Flavored milk, lowfat",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+J,2017-2018,1402,Milk shakes and other dairy drinks,MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+J,2017-2018,7220,Smoothies and grain drinks,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+J,2017-2018,9402,"Formula, ready-to-feed",BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+J,2017-2018,9404,"Formula, prepared from powder",BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+J,2017-2018,9406,"Formula, prepared from concentrate",BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+J,2017-2018,9999,Not included in a food category,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+J,2017-2018,8008,Cream and cream substitutes,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+J,2017-2018,8006,"Cream cheese, sour cream, whipped cream",FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+J,2017-2018,5804,Pudding,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+J,2017-2018,5502,Cakes and pies,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+J,2017-2018,9012,Baby food: snacks and sweets,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+J,2017-2018,1602,Cheese,MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+J,2017-2018,1604,Cottage/ricotta cheese,MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+J,2017-2018,3602,Pizza,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+J,2017-2018,2502,Eggs and omelets,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+J,2017-2018,3720,Cheese sandwiches (single code),MIXED DISHES,G6,Mixed dishes,0,Official major heading
+J,2017-2018,6432,"Coleslaw, non-lettuce salads",FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+J,2017-2018,3802,Soups,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+J,2017-2018,2002,"Beef, excludes ground",PROTEIN FOODS,G7,Protein foods,0,Official major heading
+J,2017-2018,9008,Baby food: meat and dinners,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+J,2017-2018,2004,Ground beef,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+J,2017-2018,2602,Cold cuts and cured meats,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+J,2017-2018,2604,Bacon,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+J,2017-2018,2006,Pork,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+J,2017-2018,8002,Butter and animal fats,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+J,2017-2018,2008,"Lamb, goat, game",PROTEIN FOODS,G7,Protein foods,0,Official major heading
+J,2017-2018,2206,"Turkey, duck, other poultry",PROTEIN FOODS,G7,Protein foods,0,Official major heading
+J,2017-2018,2202,"Chicken, whole pieces",PROTEIN FOODS,G7,Protein foods,0,Official major heading
+J,2017-2018,2204,"Chicken patties, nuggets and tenders",PROTEIN FOODS,G7,Protein foods,0,Official major heading
+J,2017-2018,3004,Poultry mixed dishes,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+J,2017-2018,2010,Liver and organ meats,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+J,2017-2018,2606,Frankfurters,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+J,2017-2018,2608,Sausages,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+J,2017-2018,2402,Fish,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+J,2017-2018,2404,Shellfish,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+J,2017-2018,3002,Meat mixed dishes,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+J,2017-2018,3404,Stir-fry and soy-based sauce mixtures,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+J,2017-2018,8410,"Pasta sauces, tomato-based",FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+J,2017-2018,3006,Seafood mixed dishes,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+J,2017-2018,8404,Soy-based condiments,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+J,2017-2018,3202,Rice mixed dishes,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+J,2017-2018,3402,Fried rice and lo/chow mein,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+J,2017-2018,3502,Burritos and tacos,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+J,2017-2018,6411,Other dark green vegetables,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+J,2017-2018,3708,Other sandwiches (single code),MIXED DISHES,G6,Mixed dishes,0,Official major heading
+J,2017-2018,3702,Burgers (single code),MIXED DISHES,G6,Mixed dishes,0,Official major heading
+J,2017-2018,3706,Egg/breakfast sandwiches (single code),MIXED DISHES,G6,Mixed dishes,0,Official major heading
+J,2017-2018,3704,Chicken/turkey sandwiches (single code),MIXED DISHES,G6,Mixed dishes,0,Official major heading
+J,2017-2018,3730,Seafood sandwiches (single code),MIXED DISHES,G6,Mixed dishes,0,Official major heading
+J,2017-2018,3703,Frankfurter sandwiches (single code),MIXED DISHES,G6,Mixed dishes,0,Official major heading
+J,2017-2018,2802,"Beans, peas, legumes",PROTEIN FOODS,G7,Protein foods,0,Official major heading
+J,2017-2018,3102,"Bean, pea, legume dishes",MIXED DISHES,G6,Mixed dishes,0,Official major heading
+J,2017-2018,5004,"Tortilla, corn, other chips",SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+J,2017-2018,3104,Vegetable dishes,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+J,2017-2018,2806,Processed soy products,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+J,2017-2018,8406,Mustard and other condiments,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+J,2017-2018,2804,Nuts and seeds,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+J,2017-2018,3722,Peanut butter and jelly sandwiches (single code),MIXED DISHES,G6,Mixed dishes,0,Official major heading
+J,2017-2018,7204,Fruit drinks,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+J,2017-2018,5704,Candy not containing chocolate,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+J,2017-2018,4202,Yeast breads,GRAINS,G8,Grains,0,Official major heading
+J,2017-2018,4204,Rolls and buns,GRAINS,G8,Grains,0,Official major heading
+J,2017-2018,5506,"Doughnuts, sweet rolls, pastries",SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+J,2017-2018,4206,Bagels and English muffins,GRAINS,G8,Grains,0,Official major heading
+J,2017-2018,3208,Turnovers and other grain-based items,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+J,2017-2018,5202,"Crackers, excludes saltines",SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+J,2017-2018,5504,Cookies and brownies,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+J,2017-2018,4402,"Biscuits, muffins, quick breads",GRAINS,G8,Grains,0,Official major heading
+J,2017-2018,4208,Tortillas,GRAINS,G8,Grains,0,Official major heading
+J,2017-2018,4404,"Pancakes, waffles, French toast",GRAINS,G8,Grains,0,Official major heading
+J,2017-2018,5402,Cereal bars,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+J,2017-2018,5404,Nutrition bars,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+J,2017-2018,5204,Saltine crackers,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+J,2017-2018,5008,Pretzels/snack mix,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+J,2017-2018,5002,Potato chips,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+J,2017-2018,5006,Popcorn,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+J,2017-2018,4004,"Pasta, noodles, cooked grains",GRAINS,G8,Grains,0,Official major heading
+J,2017-2018,4804,Grits and other cooked cereals,GRAINS,G8,Grains,0,Official major heading
+J,2017-2018,4802,Oatmeal,GRAINS,G8,Grains,0,Official major heading
+J,2017-2018,4002,Rice,GRAINS,G8,Grains,0,Official major heading
+J,2017-2018,9002,Baby food: cereals,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+J,2017-2018,4604,"Ready-to-eat cereal, lower sugar (=<21.2g/100g)",GRAINS,G8,Grains,0,Official major heading
+J,2017-2018,4602,"Ready-to-eat cereal, higher sugar (>21.2g/100g)",GRAINS,G8,Grains,0,Official major heading
+J,2017-2018,3506,Other Mexican mixed dishes,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+J,2017-2018,3504,Nachos,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+J,2017-2018,3406,"Egg rolls, dumplings, sushi",MIXED DISHES,G6,Mixed dishes,0,Official major heading
+J,2017-2018,3204,"Pasta mixed dishes, excludes macaroni and cheese",MIXED DISHES,G6,Mixed dishes,0,Official major heading
+J,2017-2018,3206,Macaroni and cheese,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+J,2017-2018,6012,Citrus fruits,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+J,2017-2018,8806,"Jams, syrups, toppings",FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+J,2017-2018,7002,Citrus juice,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+J,2017-2018,7006,Other fruit juice,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+J,2017-2018,6016,Dried fruits,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+J,2017-2018,6018,Other fruits and fruit salads,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+J,2017-2018,6002,Apples,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+J,2017-2018,6420,Other vegetables and combinations,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+J,2017-2018,6004,Bananas,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+J,2017-2018,6014,Melons,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+J,2017-2018,6006,Grapes,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+J,2017-2018,6024,Mango and papaya,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+J,2017-2018,6008,Peaches and nectarines,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+J,2017-2018,6020,Pears,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+J,2017-2018,6022,Pineapple,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+J,2017-2018,6011,Blueberries and other berries,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+J,2017-2018,6009,Strawberries,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+J,2017-2018,5806,"Gelatins, ices, sorbets",SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+J,2017-2018,7004,Apple juice,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+J,2017-2018,9004,Baby food: fruit,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+J,2017-2018,9202,Baby juice,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+J,2017-2018,6802,"White potatoes, baked or boiled",FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+J,2017-2018,6806,Mashed potatoes and white potato mixtures,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+J,2017-2018,6804,French fries and other fried white potatoes,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+J,2017-2018,6418,Other starchy vegetables,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+J,2017-2018,6430,Fried vegetables,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+J,2017-2018,6407,Broccoli,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+J,2017-2018,6410,Lettuce and lettuce salads,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+J,2017-2018,6409,Spinach,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+J,2017-2018,6404,Carrots,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+J,2017-2018,7008,Vegetable juice,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+J,2017-2018,6406,Other red and orange vegetables,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+J,2017-2018,6402,Tomatoes,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+J,2017-2018,8408,"Olives, pickles, pickled vegetables",FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+J,2017-2018,8402,Tomato-based condiments,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+J,2017-2018,6412,String beans,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+J,2017-2018,6413,Cabbage,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+J,2017-2018,6416,Corn,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+J,2017-2018,6414,Onions,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+J,2017-2018,9006,Baby food: vegetable,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+J,2017-2018,8004,Margarine,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+J,2017-2018,8010,Mayonnaise,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+J,2017-2018,8012,Salad dressings and vegetable oils,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+J,2017-2018,6489,Vegetables on a sandwich,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+J,2017-2018,8802,Sugars and honey,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+J,2017-2018,8804,Sugar substitutes,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+J,2017-2018,5702,Candy containing chocolate,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+J,2017-2018,7302,Coffee,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+J,2017-2018,7304,Tea,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+J,2017-2018,7202,Soft drinks,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+J,2017-2018,7102,Diet soft drinks,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+J,2017-2018,7802,Flavored or carbonated water,WATER: Flavored or Enhanced Water,G1,Non-alcoholic beverages,1,Included among non-alcoholic beverages; only plain water excluded
+J,2017-2018,7106,Other diet drinks,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+J,2017-2018,7502,Beer,ALCOHOLIC BEVERAGES,G2,Alcoholic beverages,1,Official major heading
+J,2017-2018,7506,Liquor and cocktails,ALCOHOLIC BEVERAGES,G2,Alcoholic beverages,1,Official major heading
+J,2017-2018,7504,Wine,ALCOHOLIC BEVERAGES,G2,Alcoholic beverages,1,Official major heading
+J,2017-2018,7702,Tap water,WATER: Plain Water,G10,Other,0,Plain water assigned to Other as requested
+J,2017-2018,7704,Bottled water,WATER: Plain Water,G10,Other,0,Plain water assigned to Other as requested
+J,2017-2018,7804,Enhanced or fortified water,WATER: Flavored or Enhanced Water,G1,Non-alcoholic beverages,1,Included among non-alcoholic beverages; only plain water excluded
+J,2017-2018,9204,Baby water,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+J,2017-2018,7208,Nutritional beverages,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+J,2017-2018,9802,Protein and nutritional powders,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+J,2017-2018,7206,Sport and energy drinks,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+J,2017-2018,7104,Diet sport and energy drinks,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+L,2021-2023,9602,Human milk,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+L,2021-2023,1004,"Milk, reduced fat",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+L,2021-2023,1002,"Milk, whole",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+L,2021-2023,1006,"Milk, lowfat",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+L,2021-2023,1008,"Milk, nonfat",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+L,2021-2023,1202,"Flavored milk, whole",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+L,2021-2023,1902,Plant-based milk,MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+L,2021-2023,1820,"Yogurt, regular",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+L,2021-2023,1822,"Yogurt, Greek",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+L,2021-2023,8412,"Dips, gravies, other sauces",FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+L,2021-2023,5802,Ice cream and frozen dairy desserts,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+L,2021-2023,9007,Baby food: mixtures,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+L,2021-2023,9010,Baby food: yogurt,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+L,2021-2023,1206,"Flavored milk, lowfat",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+L,2021-2023,1204,"Flavored milk, reduced fat",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+L,2021-2023,1208,"Flavored milk, nonfat",MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+L,2021-2023,1402,Milk shakes and other dairy drinks,MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+L,2021-2023,7220,Smoothies and grain drinks,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+L,2021-2023,9404,"Formula, prepared from powder",BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+L,2021-2023,9402,"Formula, ready-to-feed",BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+L,2021-2023,9999,Not included in a food category,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+L,2021-2023,8008,Cream and cream substitutes,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+L,2021-2023,8006,"Cream cheese, sour cream, whipped cream",FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+L,2021-2023,5804,Pudding,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+L,2021-2023,5502,Cakes and pies,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+L,2021-2023,1602,Cheese,MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+L,2021-2023,1604,Cottage/ricotta cheese,MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+L,2021-2023,3602,Pizza,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+L,2021-2023,2502,Eggs and omelets,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+L,2021-2023,3720,Cheese sandwiches,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+L,2021-2023,6432,"Coleslaw, non-lettuce salads",FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+L,2021-2023,2002,"Beef, excludes ground",PROTEIN FOODS,G7,Protein foods,0,Official major heading
+L,2021-2023,2004,Ground beef,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+L,2021-2023,9008,Baby food: meat and dinners,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+L,2021-2023,2602,Cold cuts and cured meats,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+L,2021-2023,2604,Bacon,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+L,2021-2023,2006,Pork,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+L,2021-2023,3002,Meat mixed dishes,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+L,2021-2023,8002,Butter and animal fats,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+L,2021-2023,2008,"Lamb, goat, game",PROTEIN FOODS,G7,Protein foods,0,Official major heading
+L,2021-2023,2206,"Turkey, duck, other poultry",PROTEIN FOODS,G7,Protein foods,0,Official major heading
+L,2021-2023,2202,"Chicken, whole pieces",PROTEIN FOODS,G7,Protein foods,0,Official major heading
+L,2021-2023,2204,"Chicken patties, nuggets and tenders",PROTEIN FOODS,G7,Protein foods,0,Official major heading
+L,2021-2023,2010,Liver and organ meats,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+L,2021-2023,2606,Frankfurters,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+L,2021-2023,2608,Sausages,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+L,2021-2023,2402,Fish,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+L,2021-2023,2404,Shellfish,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+L,2021-2023,3404,Stir-fry and soy-based sauce mixtures,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+L,2021-2023,3004,Poultry mixed dishes,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+L,2021-2023,8410,"Pasta sauces, tomato-based",FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+L,2021-2023,3006,Seafood mixed dishes,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+L,2021-2023,8404,Soy-based condiments,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+L,2021-2023,3202,Rice mixed dishes,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+L,2021-2023,3402,Fried rice and lo/chow mein,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+L,2021-2023,3502,Burritos and tacos,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+L,2021-2023,6411,Other dark green vegetables,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+L,2021-2023,3740,Deli and cured meat sandwiches,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+L,2021-2023,3742,Meat and BBQ sandwiches,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+L,2021-2023,3702,Burgers,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+L,2021-2023,3704,Chicken fillet sandwiches,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+L,2021-2023,3730,Seafood sandwiches,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+L,2021-2023,3703,Frankfurter sandwiches,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+L,2021-2023,3804,"Soups, broth-based",MIXED DISHES,G6,Mixed dishes,0,Official major heading
+L,2021-2023,3808,Ramen and Asian broth-based soups,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+L,2021-2023,3806,"Soups, cream-based",MIXED DISHES,G6,Mixed dishes,0,Official major heading
+L,2021-2023,3706,Egg/breakfast sandwiches,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+L,2021-2023,2802,"Beans, peas, legumes",PROTEIN FOODS,G7,Protein foods,0,Official major heading
+L,2021-2023,3102,"Bean, pea, legume dishes",MIXED DISHES,G6,Mixed dishes,0,Official major heading
+L,2021-2023,5004,"Tortilla, corn, other chips",SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+L,2021-2023,3104,Vegetable dishes,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+L,2021-2023,2806,Soy and meat-alternative products,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+L,2021-2023,1904,Plant-based yogurt,MILK AND DAIRY,G5,Milk and dairy,0,Includes plant-based dairy in its official major heading
+L,2021-2023,8406,Mustard and other condiments,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+L,2021-2023,3744,Vegetable sandwiches/burgers,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+L,2021-2023,2804,Nuts and seeds,PROTEIN FOODS,G7,Protein foods,0,Official major heading
+L,2021-2023,3722,Peanut butter and jelly sandwiches,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+L,2021-2023,7204,Fruit drinks,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+L,2021-2023,4202,Yeast breads,GRAINS,G8,Grains,0,Official major heading
+L,2021-2023,4204,Rolls and buns,GRAINS,G8,Grains,0,Official major heading
+L,2021-2023,5506,"Doughnuts, sweet rolls, pastries",SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+L,2021-2023,4206,Bagels and English muffins,GRAINS,G8,Grains,0,Official major heading
+L,2021-2023,3208,Turnovers and other grain-based items,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+L,2021-2023,5202,"Crackers, excludes saltines",SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+L,2021-2023,5504,Cookies and brownies,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+L,2021-2023,4402,"Biscuits, muffins, quick breads",GRAINS,G8,Grains,0,Official major heading
+L,2021-2023,4208,Tortillas,GRAINS,G8,Grains,0,Official major heading
+L,2021-2023,4404,"Pancakes, waffles, French toast",GRAINS,G8,Grains,0,Official major heading
+L,2021-2023,5402,Cereal bars,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+L,2021-2023,5404,Nutrition bars,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+L,2021-2023,9012,Baby food: snacks and sweets,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+L,2021-2023,5204,Saltine crackers,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+L,2021-2023,5008,Pretzels/snack mix,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+L,2021-2023,5002,Potato chips,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+L,2021-2023,5006,Popcorn,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+L,2021-2023,4004,"Pasta, noodles, cooked grains",GRAINS,G8,Grains,0,Official major heading
+L,2021-2023,4804,Grits and other cooked cereals,GRAINS,G8,Grains,0,Official major heading
+L,2021-2023,4802,Oatmeal,GRAINS,G8,Grains,0,Official major heading
+L,2021-2023,4002,Rice,GRAINS,G8,Grains,0,Official major heading
+L,2021-2023,4602,"Ready-to-eat cereal, higher sugar (>21.2g/100g)",GRAINS,G8,Grains,0,Official major heading
+L,2021-2023,4604,"Ready-to-eat cereal, lower sugar (=<21.2g/100g)",GRAINS,G8,Grains,0,Official major heading
+L,2021-2023,9002,Baby food: cereals,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+L,2021-2023,3506,Other Mexican mixed dishes,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+L,2021-2023,3504,Nachos,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+L,2021-2023,3406,"Egg rolls, dumplings, sushi",MIXED DISHES,G6,Mixed dishes,0,Official major heading
+L,2021-2023,3204,"Pasta mixed dishes, excludes macaroni and cheese",MIXED DISHES,G6,Mixed dishes,0,Official major heading
+L,2021-2023,3206,Macaroni and cheese,MIXED DISHES,G6,Mixed dishes,0,Official major heading
+L,2021-2023,6012,Citrus fruits,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+L,2021-2023,8806,"Jams, syrups, toppings",FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+L,2021-2023,7002,Citrus juice,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+L,2021-2023,7006,Other fruit juice,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+L,2021-2023,6016,Dried fruits,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+L,2021-2023,6018,Other fruits and fruit salads,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+L,2021-2023,6002,Apples,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+L,2021-2023,6420,Other vegetables and combinations,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+L,2021-2023,6004,Bananas,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+L,2021-2023,6014,Melons,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+L,2021-2023,6006,Grapes,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+L,2021-2023,6024,Mango and papaya,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+L,2021-2023,6008,Peaches and nectarines,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+L,2021-2023,6020,Pears,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+L,2021-2023,6022,Pineapple,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+L,2021-2023,6011,Blueberries and other berries,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+L,2021-2023,6009,Strawberries,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+L,2021-2023,5806,"Gelatins, ices, sorbets",SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+L,2021-2023,7004,Apple juice,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+L,2021-2023,9004,Baby food: fruit,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+L,2021-2023,9202,Baby juice,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+L,2021-2023,6802,"White potatoes, baked or boiled",FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+L,2021-2023,6806,Mashed potatoes and white potato mixtures,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+L,2021-2023,6804,French fries and other fried white potatoes,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+L,2021-2023,6418,Other starchy vegetables,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+L,2021-2023,6430,Fried vegetables,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+L,2021-2023,6407,Broccoli,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+L,2021-2023,6410,Lettuce and lettuce salads,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+L,2021-2023,6409,Spinach,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+L,2021-2023,6404,Carrots,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+L,2021-2023,7008,Vegetable juice,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+L,2021-2023,6406,Other red and orange vegetables,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+L,2021-2023,6402,Tomatoes,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+L,2021-2023,8408,"Olives, pickles, pickled vegetables",FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+L,2021-2023,8402,Tomato-based condiments,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+L,2021-2023,6412,String beans,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+L,2021-2023,6413,Cabbage,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+L,2021-2023,6416,Corn,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+L,2021-2023,6414,Onions,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+L,2021-2023,9006,Baby food: vegetables,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+L,2021-2023,8004,Margarine,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+L,2021-2023,8010,Mayonnaise,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+L,2021-2023,8012,Salad dressings and vegetable oils,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+L,2021-2023,6489,Vegetables on a sandwich,FRUIT / VEGETABLES,G9,Fruits and vegetables,0,Includes vegetable mixed dishes within this official heading
+L,2021-2023,8802,Sugars and honey,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+L,2021-2023,8804,Sugar substitutes,FATS AND OILS / CONDIMENTS AND SAUCES / SUGARS,G4,"Additions: fats, condiments and sugars",1,Official headings pooled as prespecified additions
+L,2021-2023,5704,Candy not containing chocolate,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+L,2021-2023,5702,Candy containing chocolate,SNACKS AND SWEETS,G3,Snacks and sweets,1,"Official major heading, including dairy desserts"
+L,2021-2023,7302,Coffee,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+L,2021-2023,7304,Tea,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+L,2021-2023,7202,Soft drinks,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+L,2021-2023,7102,Diet soft drinks,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+L,2021-2023,7802,Flavored or carbonated water,WATER: Flavored or Enhanced Water,G1,Non-alcoholic beverages,1,Included among non-alcoholic beverages; only plain water excluded
+L,2021-2023,7106,Other diet drinks,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+L,2021-2023,7502,Beer,ALCOHOLIC BEVERAGES,G2,Alcoholic beverages,1,Official major heading
+L,2021-2023,7506,Liquor and cocktails,ALCOHOLIC BEVERAGES,G2,Alcoholic beverages,1,Official major heading
+L,2021-2023,7504,Wine,ALCOHOLIC BEVERAGES,G2,Alcoholic beverages,1,Official major heading
+L,2021-2023,7702,Tap water,WATER: Plain Water,G10,Other,0,Plain water assigned to Other as requested
+L,2021-2023,7704,Bottled water,WATER: Plain Water,G10,Other,0,Plain water assigned to Other as requested
+L,2021-2023,7804,Enhanced water,WATER: Flavored or Enhanced Water,G1,Non-alcoholic beverages,1,Included among non-alcoholic beverages; only plain water excluded
+L,2021-2023,9204,Baby water,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+L,2021-2023,7208,Nutritional beverages,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+L,2021-2023,9802,Protein and nutritional powders,BABY FOODS AND FORMULAS / OTHER,G10,Other,0,"Includes powders and official category 9999, not classified"
+L,2021-2023,7206,Sport and energy drinks,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water
+L,2021-2023,7104,Diet sport and energy drinks,BEVERAGES,G1,Non-alcoholic beverages,1,Includes nutritional beverages; excludes milk and plain water

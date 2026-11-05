@@ -1,0 +1,10 @@
+{
+  "status": "COMPLETE",
+  "finished_utc": "2026-11-04 11:01:24 UTC",
+  "person_count": 20875,
+  "endpoints": 46,
+  "Taylor_rows": 92,
+  "pretrend_rows": 56,
+  "failed_replicate_endpoint_fits": 0,
+  "story_verdict": "UPGRADE_AJCN"
+}

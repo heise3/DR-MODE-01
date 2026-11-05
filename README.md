@@ -1,6 +1,6 @@
 # DR-MODE-01: NHANES dietary-recall mode-change analysis
 
-Version **v1.0.0**, publicly released after analysis on **2026-10-30**. This repository archives code, locally frozen protocols, survey-bootstrap multipliers, aggregate results, diagnostics and the claim-to-source ledger for NHANES 2011–2018 and August 2021–August 2023. This public release is **not** a claim of prospective public registration. The original local freeze records and their hashes are preserved.
+Version **v1.1.0** adds the post hoc food-level extension to the original **v1.0.0** release (2026-10-30). Both public releases followed their respective analyses; neither is external prospective registration. This repository archives code, locally frozen protocols, survey-bootstrap multipliers, aggregate results, diagnostics and the claim-to-source ledger for NHANES 2011–2018 and August 2021–August 2023. This public release is **not** a claim of prospective public registration. The original local freeze records and their hashes are preserved.
 
 ## Scope and provenance
 
@@ -21,7 +21,9 @@ All files listed in `archive/verbatim_source_manifest.csv` are byte-for-byte cop
 
 The original contract SHA-256 is `902328b9d98817f6982f0ee169bb1809f20e55e9a0178c7c15d1cfb495d76d27`. S1 preserves the format-only comparison with the subsequently pasted contract and records the correction of the sign typo: day 1 is corrected by **adding DiD**; mode effect is **−DiD**. These are not new analyses. The original weekend definition (Saturday/Sunday) and 5/7 versus 2/7 integration are preserved.
 
-Only log energy passed the original pretrend criterion. Food-item counts are supportive; nutrient-panel pretrends were not tested. Calcium control-mean results are eligible for the main-text impact estimate; the other reference is supplementary. S2 records invalid negative-amount replicates explicitly and supplies no calcium extrapolation CI based on a reduced set. Iron inadequacy remains NO_VALID_RESULT. X1 did not pass its pretrend gate and cannot identify the correction. Read the individual reports before interpreting CSV cells.
+Only log energy passed the original primary pretrend criterion; raw food-item counts remain supportive. The post hoc extension tested all ten nutrient pre-trends: sugars, alcohol and protein energy percentage met the criterion, whereas calcium did not. Calcium's control-mean usual-intake estimate is illustrative and reference dependent. Original uncertainty outputs still record invalid negative-amount replicates and supply no calcium extrapolation CI based on a reduced set. Iron inadequacy remains NO_VALID_RESULT; fast-food correction remains NOT_IDENTIFIED.
+
+The post hoc extension is in `DR-MODE-01/s2/`; see `post_hoc_extension/README.md` for its timing, conditional interpretation, the E01 engineering correction, exact reproduction instructions, and the updated source ledger. Run `python3 post_hoc_extension/verify_extension.py` to verify its frozen source hashes and aggregate algebra without fitting models. The v1.0.0 tag and original files are preserved.
 
 ## Verify and reproduce
 
