@@ -1,6 +1,6 @@
 # DR-MODE-01: NHANES dietary-recall mode-change analysis
 
-Version **v1.1.0** adds the post hoc food-level extension to the original **v1.0.0** release (2026-10-30). Both public releases followed their respective analyses; neither is external prospective registration. This repository archives code, locally frozen protocols, survey-bootstrap multipliers, aggregate results, diagnostics and the claim-to-source ledger for NHANES 2011–2018 and August 2021–August 2023. This public release is **not** a claim of prospective public registration. The original local freeze records and their hashes are preserved.
+Version **v1.1.1** restores verbatim CSV line endings after the v1.1.0 GitHub text-import conversion. The v1.1.0 extension adds the post hoc food-level extension to the original **v1.0.0** release (2026-10-30). Both public releases followed their respective analyses; neither is external prospective registration. This repository archives code, locally frozen protocols, survey-bootstrap multipliers, aggregate results, diagnostics and the claim-to-source ledger for NHANES 2011–2018 and August 2021–August 2023. This public release is **not** a claim of prospective public registration. The original local freeze records and their hashes are preserved.
 
 ## Scope and provenance
 
